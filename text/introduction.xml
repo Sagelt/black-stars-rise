@@ -13,7 +13,7 @@ This game owes a lot to playing Call of Cthulhu, but it isn’t always a Cthulhu
 <h1>The Basic Moves</h1>
 <p>The most basic move is Take a Risk, which is a lot like Defy Danger or Act Under Fire. It’ll cover most everything the players do.</p>
 <p>The next two most important moves are Keep it Together and Suffer Harm, which are reactive moves. They happen when something happens to the characters.</p>
-<p>Study happens when a character carefully studies a person, thing, or situation. You can only study the same thing once until the situation changes in some substantial way. Think of Study as their character’s logic and knowledge: you are the players’ eyes and ears no matter what, the Study move is their characters’ knowledge, dedcution, and intuition.</p>
+<p>Study happens when a character carefully studies a person, thing, or situation. You can only study the same thing once until the situation changes in some substantial way. Think of Study as their character’s logic and knowledge: you are the players’ eyes and ears no matter what, the Study move is their characters’ knowledge, deduction, and intuition.</p>
 <h2>Printing the Moves</h2>
 <p>The moves are on the last two sheets. Each move has two versions: a normal one, and a wounded one (marked with a black splatter). It’s important to print them such that they’re double-sided. From this PDF, just make sure the last six pages print two-sided. You’ll need to print one copy for each player. Cut along the dotted lines.</p>
 <h2>Handing Out The Moves</h2>
@@ -47,7 +47,7 @@ When rolling damage, roll all the dice and take the best one.</p>
 <p>Each NPC has a Threshold. Damage below their Threshold is relatively minor, over the Threshold is serious business.</p>
 <p>When an NPC takes damage, subtract their armor (if any). If any damage remains after armor, the NPC takes a condition appropriate to the situation of the GM’s choosing. If the damage after armor is greater than the NPCs Threshold, they take one more condition for each point over.</p>
 <p>Conditions can be whatever makes sense. Sometimes a condition will take an NPC out of the fight immediately. A player taking advantage of one or more conditions gets +1 to any rolls involved (it’s +1 no matter how many conditions). An NPC with a number of conditions equal or greater than their Threshold is almost certainly dead, though they may be dead before that (if they get the dying condition and aren’t treated, for example).</p>
-<p>Example: Berkowitz shoots the mad cultist bearing down on him. He rolls 4 damage. The cultist is a typical human: 0 armor and threshold 3. Since some damage gets past the armor, he takes a condition, and the GM decides on “Winged: blood spilling down a gash in his forhead.” The damage after armor is one greater than his Threshold, so he also gets “Disoriented.”</p>
+<p>Example: Berkowitz shoots the mad cultist bearing down on him. He rolls 4 damage. The cultist is a typical human: 0 armor and threshold 3. Since some damage gets past the armor, he takes a condition, and the GM decides on “Winged: blood spilling down a gash in his forehead.” The damage after armor is one greater than his Threshold, so he also gets “Disoriented.”</p>
 <h2>Player Damage</h2>
 <p>When a player character takes damage the GM will tell them the worst it could be:</p>
 <ul><li>0 for the untrained with a light weapon</li>
@@ -70,13 +70,13 @@ When rolling damage, roll all the dice and take the best one.</p>
 <p>For the most part, GM as you normally would AW or DW. That’s hand waving a huge amount that’s actually changed, but I’m getting tired of writing this little document. A few important twists:</p>
 <h2>Ask Questions and Use The Answers</h2>
 <p>Still do this, of course, but think carefully about what you ask the players about. Freely ask them about their characters’ normal mundane lives, and use that everywhere. Let them have typical human possessions and relationships, let them fill them in.</p>
-<p>Then, when the strange mythos comes up, don’t give them so big an input. Still ask them questions (about how their character is reacting, what they least want to happen, etc.) but don’t let them fill in the mythos for you. It’s big and scary and most importabtly unknown.</p>
+<p>Then, when the strange mythos comes up, don’t give them so big an input. Still ask them questions (about how their character is reacting, what they least want to happen, etc.) but don’t let them fill in the mythos for you. It’s big and scary and most importantly unknown.</p>
 <p>Within the normal confines of life let them fill in as large an area as you please, detailing as much of the setting as you want, the more the better. Beyond the normal life it’s your domain.</p>
 <h2>Honestly Portray A Twisting World</h2>
-<p>Your job as the GM is to show the players a world where ordinary people see their understanding of the world twist into something stranger. Note “twisting,” not “twisted.” It may be twisted, sure, but more importantly its changing and uncontrolable and therefore scary.</p>
+<p>Your job as the GM is to show the players a world where ordinary people see their understanding of the world twist into something stranger. Note “twisting,” not “twisted.” It may be twisted, sure, but more importantly its changing and uncontrollable and therefore scary.</p>
 <p>You don’t need to think of story or drama or any of that. The characters are poised at the edge of the unknown, interesting things will happen.</p>
 <h2>The First Session</h2>
-<p>Start the first session with encroaching weirdness and steadily dial it up. With the help of the steup, place the players in the path of strange occurances and let them play out what their characters would do. They’re under no obligation to investigate—running away (or at least trying to) is a reasonable response, but one that comes with its own dangers. The setup will embroil them in weirdness—getting out will be no easy task.</p>
+<p>Start the first session with encroaching weirdness and steadily dial it up. With the help of the setup, place the players in the path of strange occurrences and let them play out what their characters would do. They’re under no obligation to investigate—running away (or at least trying to) is a reasonable response, but one that comes with its own dangers. The setup will embroil them in weirdness—getting out will be no easy task.</p>
 <h2>Advancement</h2>
 <p>Most advancement will be descriptive: if the characters somehow gain new training or position, they get the matching move.</p>
 <p>If a character achieves some considerably victory (saving something they care for, getting to the bottom of a mystery) you can give them an advancement. Each advancement lets them choose one new move from any playbook in play. The person playing the character from that playbook gets first dibs—if the Doctor and Detective both have advances and they both want the Forensics move, the Doctor gets it.</p>
