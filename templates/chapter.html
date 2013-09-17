@@ -50,7 +50,7 @@
 			            <div id="nav">
 			                <ul>
 								{% for section in sections %}
-									<li><a href="/section/{{ section[0] }}" {% if section[0]==current %}class="current"{% endif %}>{{ section[0] }}</a></li>
+									<li><a href="/section/{{ section }}" {% if section==current %}class="current"{% endif %}>{{ section }}</a></li>
 								{% endfor %}
 			                </ul>    
 			                <br class="clearLeft" />

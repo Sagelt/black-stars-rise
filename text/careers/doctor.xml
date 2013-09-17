@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<career>
+<name><h1>Doctor</h1></name>
+<stats><p>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</p></stats>
+<description><p>You make a living fixing—or at least ameliorating—the physical ills of life. Name a specialty and describe your practice.</p>
+<h3>Requirements</h3>
+<ul><li>Aid in the healing of those in your care</li>
+<li>Be seen as a trustworthy and skilled person</li>
+<li>Spend time each week at your practice, seeing patients</li>
+<li>Administer care with caution and prudence</li>
+<li>Keep the support of nurses and other physicians</li></ul>
+<h3>Benefits</h3>
+<ul><li>Lifestyle: Well-off (you own a house, a vehicle or two, and live comfortably)</li>
+<li>Access to medical facilities</li>
+<li>Knowledge of any medical mysteries around town</li>
+<li>Monitored access to controlled substances</li></ul></description>
+<moves><p>Choose two:</p>
+<h2 class="basic_move_name">Forensics</h2>
+<p>When you study a dead body, ask the GM what killed it. If the death was mundane, the GM will describe the circumstances. If the death was supernatural, the GM will tell you the nearest mundane cause, plus what doesn’t fit that cause.</p>
+<h2 class="basic_move_name">Medic</h2>
+<p>When you give a dying person your undivided attention you buy them time. They won’t die for at least a few moments and the GM will tell you what you can do to keep them alive longer—maybe even avoid death entirely.</p>
+<h2 class="basic_move_name">Family Doctor</h2>
+<p>Off the top of your head you know the medical history of everyone in town.</p>
+<h2 class="basic_move_name">First Aid</h2>
+<p>When you provide immediate medical aid to someone who’s suffered harm, they roll with your Sharp instead of their Tough.</p>
+<h2  class="basic_move_name">Miracle Worker</h2>
+<p>When you treat someone with a permanent condition, ask the GM how the condition could be removed. They will always give you a way (though it may take some work).</p></moves>
+
+</career>
