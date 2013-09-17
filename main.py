@@ -9,9 +9,12 @@ configuration.site.jinja_environment = jinja2.Environment(
   loader=jinja2.FileSystemLoader(os.path.join(os.path.dirname(__file__), 
                                  "templates")))
 
-class ChapterHandler(webapp2.RequestHandler):
-    def get(self, chapter_number='0'):
-      text_file = codecs.open(configuration.site.chapters[int(chapter_number)], encoding='utf-8')
+class SectionHandler(webapp2.RequestHandler):
+    def get(self, section_key=None):
+      if not section_key:
+        text_file = codecs.open(configuration.site.sections[configuration.site.default_section_key], encoding='utf-8')
+      else:
+        text_file = codecs.open(configuration.site.sections[section_key], encoding='utf-8')
       text = text_file.read()
       text_file.close()
       
@@ -23,7 +26,11 @@ class ChapterHandler(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication([
     webapp2.Route(
-      r'/chapter/<chapter_number:[\d\w%]+>', 
-      handler=ChapterHandler, 
-      name='chapter'),
+      r'/section/<section_key:[\d\w%]+>', 
+      handler=SectionHandler, 
+      name='section'),
+    webapp2.Route(
+      r'/', 
+      handler=SectionHandler, 
+      name='home'),
 ], debug=True)

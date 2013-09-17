@@ -2,6 +2,7 @@ from collections import OrderedDict
 
 jinja_environment = None
 
-chapters = [
-  ('text/introduction.xml'),
-]
+default_section_key = 'Introduction'
+sections = OrderedDict([
+  ('Introduction', 'text/introduction.xml'),
+])
