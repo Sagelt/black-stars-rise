@@ -14,7 +14,11 @@ class SectionHandler(webapp2.RequestHandler):
         section_key = configuration.site.default_section_key
       
       template_values = dict()
-      template_values['text'] = configuration.site.sections.getSectionByTitle(section_key)
+      section = configuration.site.sections.getSectionByTitle(section_key)
+      if hasattr(section, 'getText'):
+        template_values['text'] = section.getText()
+      elif hasattr(section, 'getCareers'):
+        template_values['careers'] = section.getCareers()
       template_values['sections'] = configuration.site.sections.getSectionTitles()
       template_values['current'] = section_key
       

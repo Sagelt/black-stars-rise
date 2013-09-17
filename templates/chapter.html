@@ -1,3 +1,5 @@
+{% import 'macros/career.html' as careermacros %}
+
 <html>
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Neuton:400,700,400italic|Averia+Libre:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -57,7 +59,16 @@
 			            </div>
 			        </div>
 			    </div>
-			{{ text }}
+			<div id="body">
+				{% if text %}
+					{{ text }}
+				{% endif %}
+				{% if careers %}
+					{% for career in careers %}
+						{{ careermacros.careerblock(career) }}
+					{% endfor %}
+				{% endif %}
+			</div>
 		</div>
 	</body>
 </html>
