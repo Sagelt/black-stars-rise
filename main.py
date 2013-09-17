@@ -12,14 +12,15 @@ configuration.site.jinja_environment = jinja2.Environment(
 class SectionHandler(webapp2.RequestHandler):
     def get(self, section_key=None):
       if not section_key:
-        text_file = codecs.open(configuration.site.sections[configuration.site.default_section_key], encoding='utf-8')
-      else:
-        text_file = codecs.open(configuration.site.sections[section_key], encoding='utf-8')
+        section_key = configuration.site.default_section_key
+      text_file = codecs.open(configuration.site.sections[section_key], encoding='utf-8')
       text = text_file.read()
       text_file.close()
       
       template_values = dict()
       template_values['text'] = text
+      template_values['sections'] = configuration.site.sections.items()
+      template_values['current'] = section_key
       
       template = configuration.site.jinja_environment.get_template('chapter.html')
       self.response.write(template.render(template_values))

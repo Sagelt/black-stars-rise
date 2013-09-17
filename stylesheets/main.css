@@ -1,5 +1,6 @@
 p {
   font-family: 'Neuton', serif;
+  text-align: justify;
 }
 
 h1 {
@@ -17,4 +18,41 @@ li {
 #main {
   width: 600px;
   margin:0 auto;
+}
+
+#navWrap {
+   height: 30px;
+}
+
+#nav {
+   padding: 5px;
+   background: #999; 
+   height: 30px;   
+}
+
+#nav ul {
+   margin: 0;
+   padding: 0;    
+}
+
+#nav li {
+   float: left;
+   padding: 3px 8px;
+   margin: 0 10px 0 0;
+   color: #FFF;
+   list-style-type: none;
+   font-family: 'Averia Libre', serif;
+}
+
+#nav li a {
+   color: #FFF;  
+   text-decoration: none;    
+}
+
+.current {
+  text-decoration: underline !important; 
+}
+
+#nav li a:hover {
+   text-decoration: underline;   
 }
