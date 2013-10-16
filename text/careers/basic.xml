@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <careers>
-<career>
-<name>Doctor</name>
+<career><name>Doctor</name>
 <stats>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
-<description>You make a living fixing—or at least ameliorating—the physical ills of life. Name a specialty and describe your practice.</description>
-<requirements><requirement>Aid in the healing of those in your care</requirement>
-<requirement>Be seen as a trustworthy and skilled person</requirement>
-<requirement>Spend time each week at your practice, seeing patients</requirement>
-<requirement>Administer care with caution and prudence</requirement>
-<requirement>Keep the support of nurses and other physicians</requirement></requirements>
-<benefits><benefit>Lifestyle: Well-off (you own a house, a vehicle or two, and live comfortably)</benefit>
-<benefit>Access to medical facilities</benefit>
-<benefit>Knowledge of any medical mysteries around town</benefit>
-<benefit>Monitored access to controlled substances</benefit></benefits>
+<description>You make a living fixing—or at least ameliorating—the physical ills of life. Name a specialty and describe your practice. Lifestyle: Well-off</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment, recover Suffer Harm. When you build a basic human relationship with someone, recover one of Take a Risk, Keep it Together, or Study, your choice. You share your pains with ______, when you build a relationship with them recover two instead.</movebody></recovery>
+<aid><basicmovename>Aid</basicmovename>
+<movebody>When you aid someone, roll and add whatever stat the GM chooses. On a 10+ they take +1. On a 7–9 they take +1, but you expose yourself to danger in some way, the GM will say how. ________ has helped you in an emergency before, they take +1 to aid you.</movebody></aid>
 <moveinstructions>Choose two:</moveinstructions>
 <moves><move><movename>Forensics</movename>
 <movebody>When you study a dead body, ask the GM what killed it. If the death was mundane, the GM will describe the circumstances. If the death was supernatural, the GM will tell you the nearest mundane cause, plus what doesn’t fit that cause.</movebody></move>
@@ -21,11 +15,21 @@
 <move><movename>Family Doctor</movename>
 <movebody>Off the top of your head you know the medical history of everyone in town.</movebody></move>
 <move><movename>First Aid</movename>
-<movebody>When you provide immediate medical aid to someone who’s suffered harm, they roll with your Sharp instead of their Tough.</movebody></move>
+<movebody>When you provide immediate medical aid to someone who’s suffered harm, they roll with your Sharp instead of their Tough. ______ has benefited from your attention before, they take an additional +1.</movebody></move>
 <move><movename>Miracle Worker</movename>
 <movebody>When you treat someone with a permanent condition, ask the GM how the condition could be removed. They will always give you a way (though it may take some work).</movebody></move></moves>
-<trusts><trust>I have treated _____ before, you might say I saved their life.</trust>
-<trust>_____ has shown an interest in my work which I appreciate.</trust>
-<trust>I trust _____ to hear me out when the work is too much.</trust></trusts>
+</career>
+<career><name>Reporter</name>
+<stats>Start with Tough +0, Sharp +1, Steady -1, then increase your choice by 1.</stats>
+<description>You write stories, maybe with an investigative bent, for a periodical—name it, describe its topic(s), and choose a news beat (crime, politics, or high society maybe). Lifestyle: middle class</description>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Tell</movename>
+<movebody>When you talk to someone and can carefully study them you can ask the GM if they’re lying about any given statement, as often as you please. The GM will answer truthfully.</movebody></move>
+<move><movename>Muckraker</movename>
+<movebody>You’re known for bringing down people (deserving or not) with your stories. If you report on something with the barest of evidence you can be sure the proper authorities (local police, most likely) will get involved as soon as your story hits. This may not be a good thing, but at least they can’t kill you without somebody asking questions, right?</movebody></move>
+<move><movename>Camera Man</movename>
+<movebody>You’re used to taking your own photos. Unless you’re physically denied a working camera, you always have photographic evidence of every place you’ve been. Not that everyone will believe it.</movebody></move>
+<move><movename>Connected</movename>
+<movebody>You always know who’s in the know. When you seek information, you can always ask the GM “who might know more about this?” The GM will answer truthfully, including where that person can usually be found.</movebody></move></moves>
 </career>
 </careers>
