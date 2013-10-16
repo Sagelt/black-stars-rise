@@ -34,6 +34,9 @@ class CareerSection(object):
           
     return self.__careers__
     
+  def getCareerNames(self):
+    return [career.getName() for career in self.getCareers()]
+    
 class Book(object):
   
   def __init__(self, sections):

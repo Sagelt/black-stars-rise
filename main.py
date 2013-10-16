@@ -18,6 +18,7 @@ class SectionHandler(webapp2.RequestHandler):
       if hasattr(section, 'getText'):
         template_values['text'] = section.getText()
       elif hasattr(section, 'getCareers'):
+        template_values['career_names'] = section.getCareerNames()
         template_values['careers'] = section.getCareers()
       template_values['sections'] = configuration.site.sections.getSectionTitles()
       template_values['current'] = section_key

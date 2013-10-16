@@ -1,6 +1,6 @@
 {% macro careerblock(career) -%}
 <div class="career_left_column">
-<h1>{{ career.getName() }}</h1>
+<a name="{{ career.getName() }}"><h1>{{ career.getName() }}</h1></a>
 <p>{{ career.getStats() }}</p>
 <h3>Requirements</h3>
 <ul>
@@ -16,15 +16,17 @@
 </ul>
 </div>
 <div class="career_middle_column">
+	<h2>Moves</h2>
 	<p>{{ career.getMoveInstructions() }}</p>
 	{% for move in career.getMoves() %}
 		<div class="move" id="{{career.getName()}}.{{move.getName()}}">
-			<h2 class="move_name">{{move.getName()}}</h2>
+			<h3 class="move_name">{{move.getName()}}</h3>
 			<p>{{move.getBody()}}</p>
 		</div>
 	{% endfor %}
 </div>
 <div class="career_right_column">
+	<h2>Trust</h2>
 	<ul>
 	{% for trust in career.getTrusts() %}
 	<li>{{ trust }}</li>
