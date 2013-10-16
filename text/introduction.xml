@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<chapter><h1>What is this?</h1>
-<p>It’s a game of normal people caught up in the strange dark truths of the universe. It’s based on Apocalypse World by way of World of Dungeons.</p>
+<chapter xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"><h1>What is this?</h1>
+<p aid:pstyle="noindent">It’s a game of normal people caught up in the strange dark truths of the universe. It’s based on Apocalypse World by way of World of Dungeons.</p>
 <p>This document is incomplete. It presumes that you’ve read Apocalypse World (and/or Dungeon World, Monsterhearts, Sagas of the Icelanders). This document only describes how this game (title not final) differs from AW.
 This game owes a lot to playing Call of Cthulhu, but it isn’t always a Cthulhu game. Some day there will be rules on making your own mythos.</p>
 <p>A good way to describe what the characters do: you know how in The X-Files Mulder and Scully are always showing up to different places where strange things are happening? You’re going to play the people in one of those places, but Mulder and Scully are never going to show up and save the day. Good luck.</p>
 <h1>Making Characters</h1>
-<p>Start by printing out all the careers, one sided. Cut apart each pair.</p>
+<p aid:pstyle="noindent">Start by printing out all the careers, one sided. Cut apart each pair.</p>
 <p>Let the players choose whatever career they’d like. They’re pretty self-explanatory.</p>
 <p>As a general guideline, none of the characters has had previous interactions with the supernatural (the mythos).</p>
 <h2>Trust</h2>
-<p>For each trust statement, the character gains 1 Trust with the character named in the statement.</p>
+<p aid:pstyle="noindent">For each trust statement, the character gains 1 Trust with the character named in the statement.</p>
 <h1>The Basic Moves</h1>
 <p>The most basic move is Take a Risk, which is a lot like Defy Danger or Act Under Fire. It’ll cover most everything the players do.</p>
 <p>The next two most important moves are Keep it Together and Suffer Harm, which are reactive moves. They happen when something happens to the characters.</p>
 <p>Study happens when a character carefully studies a person, thing, or situation. You can only study the same thing once until the situation changes in some substantial way. Think of Study as their character’s logic and knowledge: you are the players’ eyes and ears no matter what, the Study move is their characters’ knowledge, deduction, and intuition.</p>
 <h2>Printing the Moves</h2>
-<p>The moves are on the last two sheets. Each move has two versions: a normal one, and a wounded one (marked with a black splatter). It’s important to print them such that they’re double-sided. From this PDF, just make sure the last six pages print two-sided. You’ll need to print one copy for each player. Cut along the dotted lines.</p>
+<p aid:pstyle="noindent">The moves are on the last two sheets. Each move has two versions: a normal one, and a wounded one (marked with a black splatter). It’s important to print them such that they’re double-sided. From this PDF, just make sure the last six pages print two-sided. You’ll need to print one copy for each player. Cut along the dotted lines.</p>
 <h2>Handing Out The Moves</h2>
-<p>When everyone has a character, hand out the basic moves. Note that each sheet has two copies of some moves, choose one at random. Only let the players see the face up side!</p>
+<p aid:pstyle="noindent">When everyone has a character, hand out the basic moves. Note that each sheet has two copies of some moves, choose one at random. Only let the players see the face up side!</p>
 <p>Then ask each player “Has your character been in a life or death situation before?” If they answer yes, get more details, and tell them they can look at the other side of their Take a Risk move.</p>
 <p>Then ask each player “Has your character had a life threatening injury?” If they answer yes, get more details, and tell them they can look at the other side of their Suffer Harm move.</p>
 <h1>The Setup</h1>
-<p>The Setup is the thing that draws all the characters into the weird. For now there’s only one setup, The Mansion on the Hill. As the GM, you get to answer the questions in the left column.</p>
+<p aid:pstyle="noindent">The Setup is the thing that draws all the characters into the weird. For now there’s only one setup, The Mansion on the Hill. As the GM, you get to answer the questions in the left column.</p>
 <p>The middle column has extra trust questions. Each player gets to fill in one. One blank has to be their character, the other blank can be any other player character.</p>
 <h1>Jobs</h1>
-<p>Each character has a job which (like most people) is a key part of how they keep up a normal human existence: meeting people, acquiring money, &amp;etc. A job has requirements and benefits. The requirements are more or less what’s expected of someone to keep that job. The benefits are what you get in return.</p>
+<p aid:pstyle="noindent">Each character has a job which (like most people) is a key part of how they keep up a normal human existence: meeting people, acquiring money, &amp;etc. A job has requirements and benefits. The requirements are more or less what’s expected of someone to keep that job. The benefits are what you get in return.</p>
 <p>In general, assume that each character is fulfilling the requirements of their job. When the character ends up in circumstances where they may be dropping the ball, start asking questions. How do you manage to work in a research lab when you can hear all the mice talking to you?</p>
 <p>If a character clearly misses a requirement, tell them to mark it off, along with the benefit of your choice. (It may be easiest to ask them to hand their sheet to you, so you can modify it.) If the doctor has been stuck in the past for a week maybe they’re treated as an outsider when they get back—can’t trust the guy who goes missing for a week at a time—and they lose their knowledge of the medical issues about town.</p>
 <p>Meeting a requirement again will generally restore the benefit, with time.</p>
 <h2>Lifestyle &amp; Buying</h2>
-<p>A particularly useful benefit of a job is Lifestyle, which reflects money in all its forms. These careers are all middle class or well-off, but you can assume there’s rich above that, and struggling below, plus more.</p>
+<p aid:pstyle="noindent">A particularly useful benefit of a job is Lifestyle, which reflects money in all its forms. These careers are all middle class or well-off, but you can assume there’s rich above that, and struggling below, plus more.</p>
 <p>When a character has their Lifestyle crossed out they’re effectively one lifestyle lower. Anything they don’t own outright they’ll have to give up for a cheaper version within a few months. Resuming the requirement that caused Lifestyle to be lost means going back to what you had, more or less.</p>
 <p>When a player wants to buy something above their lifestyle the GM will tell them one or more of the following:</p>
 <ul><li>The best you can manage is a cheaper version</li>
 <li>Buying it will temporarily lower your lifestyle for weeks/months/a year.</li>
 <li>You’ll have to secure a loan first, maybe from ________.</li></ul>
 <h1>Damage</h1>
-<p>The players will probably end up fighting something, or themselves, sooner or later.</p>
+<p aid:pstyle="noindent">The players will probably end up fighting something, or themselves, sooner or later.</p>
 <p>Weapons and their damage potential are measured in dice. Light weapons are smaller or multi-purpose: a pistol, a baseball bat, a crowbar, a knife. Light weapons deal one dice of damage.</p>
 <p>Heavy weapons are larger, tougher to conceal, and sometimes illegal. They’re clearly weapons: a rifle, a sword, a pitchfork. Heavy weapons deal two dice of damage.</p>
 <p>Special weapons fit neither category. Sometimes they’ll do 3 or more dice of damage. Sometimes they’ll have +x damage.
 When rolling damage, roll all the dice and take the best one.</p>
 <h2>Armor</h2>
-<p>Some humans (and many stranger things) have armor. Armor reduces damage. For humans, just about any normal gear (bullet proof vest or the like) is 1 armor at most, except maybe magical protection. The average human has no armor.</p>
+<p aid:pstyle="noindent">Some humans (and many stranger things) have armor. Armor reduces damage. For humans, just about any normal gear (bullet proof vest or the like) is 1 armor at most, except maybe magical protection. The average human has no armor.</p>
 <h2>NPC Damage</h2>
-<p>Each NPC has a Threshold. Damage below their Threshold is relatively minor, over the Threshold is serious business.</p>
+<p aid:pstyle="noindent">Each NPC has a Threshold. Damage below their Threshold is relatively minor, over the Threshold is serious business.</p>
 <p>When an NPC takes damage, subtract their armor (if any). If any damage remains after armor, the NPC takes a condition appropriate to the situation of the GM’s choosing. If the damage after armor is greater than the NPCs Threshold, they take one more condition for each point over.</p>
 <p>Conditions can be whatever makes sense. Sometimes a condition will take an NPC out of the fight immediately. A player taking advantage of one or more conditions gets +1 to any rolls involved (it’s +1 no matter how many conditions). An NPC with a number of conditions equal or greater than their Threshold is almost certainly dead, though they may be dead before that (if they get the dying condition and aren’t treated, for example).</p>
 <p>Example: Berkowitz shoots the mad cultist bearing down on him. He rolls 4 damage. The cultist is a typical human: 0 armor and threshold 3. Since some damage gets past the armor, he takes a condition, and the GM decides on “Winged: blood spilling down a gash in his forehead.” The damage after armor is one greater than his Threshold, so he also gets “Disoriented.”</p>
 <h2>Player Damage</h2>
-<p>When a player character takes damage the GM will tell them the worst it could be:</p>
+<p aid:pstyle="noindent">When a player character takes damage the GM will tell them the worst it could be:</p>
 <ul><li>0 for the untrained with a light weapon</li>
 <li>2 for the dangerous with a light weapon</li>
 <li>4 for the untrained with a heavy weapon</li>
@@ -60,28 +60,28 @@ When rolling damage, roll all the dice and take the best one.</p>
 <p>Note that usually only the basic moves can take wounds, and that generally the wounded version is worse for the player than the unwounded.</p>
 <p>Example: The cultist carries through onto Berkowitz on momentum alone, driving a dagger into him. The GM says this is 0 damage, so Berkowitz makes the Suffer Harm move with no modifier. Unfortunately he still rolls a 5. The GM describes the dagger digging into him, and the blood that starts to leak out, telling Berkowitz to wound his Suffer Harm card. He flips over his Suffer Harm card and finds the other side not to his liking.</p>
 <h1>Insanity</h1>
-<p>Possibly more dangerous than physical harm is insanity. The most common cause of insanity is a wounded Keep it Together move. When a character gains an insanity, they draw one of the insanity cards (with the GM has printed and cut up).</p>
+<p aid:pstyle="noindent">Possibly more dangerous than physical harm is insanity. The most common cause of insanity is a wounded Keep it Together move. When a character gains an insanity, they draw one of the insanity cards (with the GM has printed and cut up).</p>
 <p>The card will describe the insanity. Sometimes, but not always, it’ll give a modifier to a move. More often, it will just describe to the player (and GM) how the character’s mind has shifted. Some may seem like minor inconveniences, and that’s alright. It can be a slow long slide to madness.</p>
 <h2>Under Control</h2>
-<p>An insanity may become “under control” due to a number of moves. When this happens, flip the insanity over. The character is still afflicted, but through whatever means they are able to act as if that wasn’t the case.</p>
+<p aid:pstyle="noindent">An insanity may become “under control” due to a number of moves. When this happens, flip the insanity over. The character is still afflicted, but through whatever means they are able to act as if that wasn’t the case.</p>
 <p>Of course having it under control isn’t the same as being cured. Under the right conditions the GM may say that it’s no longer under control. Gaining a new insanity will almost always mean that older insanities are no longer under control.</p>
 <p>Rarely insanity can be cured, with no chance of relapse. Good luck with that. Humans are complex piles of irrational and poorly understood mental mechanisms.</p>
 <h1>GMing</h1>
-<p>For the most part, GM as you normally would AW or DW. That’s hand waving a huge amount that’s actually changed, but I’m getting tired of writing this little document. A few important twists:</p>
+<p aid:pstyle="noindent">For the most part, GM as you normally would AW or DW. That’s hand waving a huge amount that’s actually changed, but I’m getting tired of writing this little document. A few important twists:</p>
 <h2>Ask Questions and Use The Answers</h2>
-<p>Still do this, of course, but think carefully about what you ask the players about. Freely ask them about their characters’ normal mundane lives, and use that everywhere. Let them have typical human possessions and relationships, let them fill them in.</p>
+<p aid:pstyle="noindent">Still do this, of course, but think carefully about what you ask the players about. Freely ask them about their characters’ normal mundane lives, and use that everywhere. Let them have typical human possessions and relationships, let them fill them in.</p>
 <p>Then, when the strange mythos comes up, don’t give them so big an input. Still ask them questions (about how their character is reacting, what they least want to happen, etc.) but don’t let them fill in the mythos for you. It’s big and scary and most importantly unknown.</p>
 <p>Within the normal confines of life let them fill in as large an area as you please, detailing as much of the setting as you want, the more the better. Beyond the normal life it’s your domain.</p>
 <h2>Honestly Portray A Twisting World</h2>
-<p>Your job as the GM is to show the players a world where ordinary people see their understanding of the world twist into something stranger. Note “twisting,” not “twisted.” It may be twisted, sure, but more importantly its changing and uncontrollable and therefore scary.</p>
+<p aid:pstyle="noindent">Your job as the GM is to show the players a world where ordinary people see their understanding of the world twist into something stranger. Note “twisting,” not “twisted.” It may be twisted, sure, but more importantly its changing and uncontrollable and therefore scary.</p>
 <p>You don’t need to think of story or drama or any of that. The characters are poised at the edge of the unknown, interesting things will happen.</p>
 <h2>The First Session</h2>
-<p>Start the first session with encroaching weirdness and steadily dial it up. With the help of the setup, place the players in the path of strange occurrences and let them play out what their characters would do. They’re under no obligation to investigate—running away (or at least trying to) is a reasonable response, but one that comes with its own dangers. The setup will embroil them in weirdness—getting out will be no easy task.</p>
+<p aid:pstyle="noindent">Start the first session with encroaching weirdness and steadily dial it up. With the help of the setup, place the players in the path of strange occurrences and let them play out what their characters would do. They’re under no obligation to investigate—running away (or at least trying to) is a reasonable response, but one that comes with its own dangers. The setup will embroil them in weirdness—getting out will be no easy task.</p>
 <h2>Advancement</h2>
-<p>Most advancement will be descriptive: if the characters somehow gain new training or position, they get the matching move.</p>
+<p aid:pstyle="noindent">Most advancement will be descriptive: if the characters somehow gain new training or position, they get the matching move.</p>
 <p>If a character achieves some considerably victory (saving something they care for, getting to the bottom of a mystery) you can give them an advancement. Each advancement lets them choose one new move from any playbook in play. The person playing the character from that playbook gets first dibs—if the Doctor and Detective both have advances and they both want the Forensics move, the Doctor gets it.</p>
 <h2>Campaigns</h2>
-<p>Campaigns are made up of arcs; arcs are made up of sessions.</p>
+<p aid:pstyle="noindent">Campaigns are made up of arcs; arcs are made up of sessions.</p>
 <p>A session is one night of play. It’ll usually involve the same characters for the entire time, but if someone dies that character’s player can make a new character and start playing them immediately.</p>
 <p>The first session and setup establish some odd goings-on. The process of dealing with those (by trying to unentangle the characters from them, getting to the bottom of them, or otherwise) makes up an arc. There’s no set arc length, just look for when the setup has been clearly dealt with, at least for these characters.</p>
 <p>The end of an arc is a fine place to stop, but you can also keep a campaign going. To build a campaign, start a new arc with a new first session. Use a new setup, new characters, a new location, and maybe even a new time. The player characters will likely know nothing of the previous arcs, but we as the players and GM will get to see how this incident relates to other earlier arcs we’ve played. For example, after dealing with the old man’s death (and the captured spirits he was tending) we might jump to 130 years earlier when the mansion is being built under mysterious circumstances.</p></chapter>
