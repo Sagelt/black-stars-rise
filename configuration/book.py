@@ -70,21 +70,21 @@ class Career(object):
     for career_node in tree.getroot().findall('career'):
       yield Career(name=career_node.find('name').text,
                    stats=career_node.find('stats').text,
-                   requirements=[requirement.text for requirement in career_node.find('requirements').findall('requirement')],
-                   benefits=[benefit.text for benefit in career_node.find('benefits').findall('benefit')],
+                   description=career_node.find('description').text,
+                   recovery=career_node.find('recovery').find('movebody').text,
                    move_instructions=career_node.find('moveinstructions').text,
                    moves=[Move(move.find('movename').text, move.find('movebody').text) for move in career_node.find('moves').findall('move')],
-                   trusts=[trust.text for trust in career_node.find('trusts').findall('trust')]
+                   history=[event.text for event in career_node.find('history').findall('event')]
                   )
                   
-  def __init__(self, name, stats, requirements, benefits, move_instructions, moves, trusts):
+  def __init__(self, name, stats, description, recovery, move_instructions, moves, history):
     self.__name__ = name
     self.__stats__ = stats
-    self.__requirements__ = requirements
-    self.__benefits__ = benefits
+    self.__description__ = description
+    self.__recovery__ = recovery
     self.__move_instructions__ = move_instructions
     self.__moves__ = moves
-    self.__trusts__ = trusts
+    self.__history__ = history
     
   def getName(self):
     return self.__name__
@@ -92,11 +92,11 @@ class Career(object):
   def getStats(self):
     return self.__stats__
     
-  def getRequirements(self):
-    return self.__requirements__
-  
-  def getBenefits(self):
-    return self.__benefits__
+  def getDescription(self):
+    return self.__description__
+    
+  def getRecovery(self):
+    return self.__recovery__
   
   def getMoveInstructions(self):
     return self.__move_instructions__
@@ -104,5 +104,5 @@ class Career(object):
   def getMoves(self):
     return self.__moves__
     
-  def getTrusts(self):
-    return self.__trusts__
+  def getHistory(self):
+    return self.__history__

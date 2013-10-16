@@ -2,18 +2,9 @@
 <div class="career_left_column">
 <a name="{{ career.getName() }}"><h1>{{ career.getName() }}</h1></a>
 <p>{{ career.getStats() }}</p>
-<h3>Requirements</h3>
-<ul>
-{% for requirement in career.getRequirements() %}
-<li>{{ requirement }}</li>
-{% endfor %}
-</ul>
-<h3>Benefits</h3>
-<ul>
-{% for benefit in career.getBenefits() %}
-<li>{{ benefit }}</li>
-{% endfor %}
-</ul>
+<p>{{ career.getDescription() }}</p>
+<h3 class="basic_move_name">Recovery</h3>
+<p>{{ career.getRecovery() }}</p>
 </div>
 <div class="career_middle_column">
 	<h2>Moves</h2>
@@ -26,10 +17,10 @@
 	{% endfor %}
 </div>
 <div class="career_right_column">
-	<h2>Trust</h2>
+	<h2>History</h2>
 	<ul>
-	{% for trust in career.getTrusts() %}
-	<li>{{ trust }}</li>
+	{% for event in career.getHistory() %}
+	<li>{{ event }}</li>
 	{% endfor %}
 	</ul>
 </div>
