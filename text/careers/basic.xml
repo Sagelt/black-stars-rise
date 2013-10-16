@@ -17,7 +17,7 @@
 <move><movename>Miracle Worker</movename>
 <movebody>When you treat someone with a permanent condition, ask the GM how the condition could be removed. They will always give you a way (though it may take some work).</movebody></move></moves>
 <history><basicmovename>History</basicmovename>
-<event>I saved _______'s life. They get to look at the other side of their Suffer Harm move.</event>
+<event>I saved _______'s life, they know they're in good hands with me. They take +1 to Keep it Together in your presence.</event>
 <event>_______ has shown an interest in my work which I appreciate. They get +1 Sharp.</event>
 <event>I trust _______ to hear me out when the work is too much. They take +1 when aiding you.</event></history>
 </career>
