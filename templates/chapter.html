@@ -1,4 +1,5 @@
 {% import 'macros/career.html' as careermacros %}
+{% import 'macros/setup.html' as setupmacros %}
 
 <html>
 	<head>
@@ -24,6 +25,11 @@
 								{{ careermacros.careerblock(career) }}
 							{% endfor %}
 						{% endif %}
+						{% if setups %}
+							{% for setup in setups %}
+								{{ setupmacros.setupblock(setup) }}
+							{% endfor %}
+						{% endif %}
 					</div>
 				</div>
 				
@@ -31,7 +37,7 @@
 				<div class="col2">
 	                <ul>
 						{% for section in sections %}
-							<li><a href="/section/{{ section }}" {% if section==current %}class="current"{% endif %}>{{ section }}</a></li>
+							<li><a href="/section/{{ section.getKey() }}" {% if section==current %}class="current"{% endif %}>{{ section.getTitle() }}</a></li>
 						{% endfor %}
 	                </ul>  
 	                <br />

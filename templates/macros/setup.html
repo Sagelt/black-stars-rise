@@ -1,0 +1,21 @@
+{% macro setupblock(setup) -%}
+<div class="setup_left_column">
+<a name="{{ setup.getTitle() }}"><h1>{{ setup.getTitle() }}</h1></a>
+<p>{{ setup.getDescription() }}</p>
+<h2>Options</h2>
+{% for option in setup.getOptions() %}
+	<p>{{ option.getQuestion() }}</p>
+	<ul>
+		{% for answer in option.getAnswers() %}
+			<li>{{ answer }}</li>
+		{% endfor %}
+	</ul>
+{% endfor %}
+</div>
+<div class="setup_middle_column">
+	<h2>Connections</h2>
+	{% for connection in setup.getConnections() %}
+		<p>{{ connection }}</p>
+	{% endfor %}
+</div>
+{%- endmacro %}

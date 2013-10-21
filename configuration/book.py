@@ -6,7 +6,8 @@ import jinja2
 
 class SingleFileSection(object):
   
-  def __init__(self, title, file_name):
+  def __init__(self, key, title, file_name):
+    self.__key__ = key
     self.__title__ = title
     self.__file_name__ = file_name
     
@@ -16,14 +17,21 @@ class SingleFileSection(object):
   def getText(self):
     return codecs.open(self.__file_name__, encoding='utf-8').read()
     
-class CareerSection(object):
+  def getKey(self):
+    return self.__key__
+    
+class Setting(object):
   
-  def __init__(self, title, file_names):
+  def __init__(self, key, title, file_names):
+    self.__key__ = key
     self.__title__ = title
     self.__file_names__ = file_names
     
   def getTitle(self):
     return self.__title__
+    
+  def getKey(self):
+    return self.__key__
     
   def getCareers(self):
     if not hasattr(self, '__careers__'):
@@ -37,18 +45,35 @@ class CareerSection(object):
   def getCareerNames(self):
     return [career.getName() for career in self.getCareers()]
     
+  def getSetups(self):
+    if not hasattr(self, '__setups__'):
+      self.__setups__ = []
+      for file_name in self.__file_names__:
+        for setup in Setup.fromFile(file_name):
+          self.__setups__.append(setup)
+    
+    return self.__setups__
+  
+  def getSetupTitles(self):
+    return [setup.getTitle() for setup in self.getSetups()]
+
+
 class Book(object):
   
   def __init__(self, sections):
     self.__sections__ = OrderedDict()
     for section in sections:
-      self.__sections__[section.getTitle()] = section
+      self.__sections__[section.getKey()] = section
       
-  def getSectionByTitle(self, title):
-    return self.__sections__[title]
+  def getSectionByKey(self, key):
+    return self.__sections__[key]
     
-  def getSectionTitles(self):
+  def getSectionKeys(self):
     return self.__sections__.keys()
+    
+  def getSections(self):
+    return self.__sections__.values()
+
 
 class Move(object):
   
@@ -67,7 +92,7 @@ class Career(object):
   @staticmethod
   def fromFile(file_name):
     tree = ET.parse(file_name)
-    for career_node in tree.getroot().findall('career'):
+    for career_node in tree.getroot().iter('career'):
       yield Career(name=career_node.find('name').text,
                    stats=career_node.find('stats').text,
                    description=career_node.find('description').text,
@@ -106,3 +131,44 @@ class Career(object):
     
   def getHistory(self):
     return self.__history__
+
+class Option(object):
+  
+  def __init__(self, question, answers):
+    self.__question__ = question
+    self.__answers__ = answers
+    
+  def getQuestion(self):
+    return self.__question__
+    
+  def getAnswers(self):
+    return self.__answers__
+
+class Setup(object):
+  
+  @staticmethod
+  def fromFile(file_name):
+    tree = ET.parse(file_name)
+    for setup_node in tree.getroot().iter('setup'):
+      yield Setup(title=setup_node.find('title').text,
+                  description=setup_node.find('description').text,
+                  options=[Option(option.find('question').text, [answer.text for answer in option.iter('li')]) for option in setup_node.find('options').findall('option')],
+                  connections=[connection.text for connection in setup_node.find('connections').findall('connection')])
+  
+  def __init__(self, title, description, options, connections):
+    self.__title__ = title
+    self.__description__ = description
+    self.__options__ = options
+    self.__connections__ = connections
+    
+  def getTitle(self):
+    return self.__title__
+    
+  def getDescription(self):
+    return self.__description__
+    
+  def getOptions(self):
+    return self.__options__
+    
+  def getConnections(self):
+    return self.__connections__
