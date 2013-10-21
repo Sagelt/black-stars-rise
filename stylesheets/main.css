@@ -27,6 +27,15 @@ li {
   font-family: 'Neuton', serif;
 }
 
+a[href] {
+ color: #585858;
+ text-decoration: none;
+}
+
+a[href]:hover {
+  border-bottom: 1px black dotted;
+}
+
 /* Header styles */
 #header {
 	clear:both;
@@ -144,3 +153,8 @@ li {
 	padding:10px;
 	margin:0;
 }
+
+/* Menu styles */
+.col2 ul { margin-left: 0; padding-left: 0; list-style-type: none; }
+.col2 ul ul { margin-left: .5em; padding-left: .5em; list-style-type: none;}
+.col2 ul ul ul { margin-left: .5em; padding-left: .5em; list-style-type: none;}

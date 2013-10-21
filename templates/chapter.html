@@ -37,17 +37,28 @@
 				<div class="col2">
 	                <ul>
 						{% for section in sections %}
-							<li><a href="/section/{{ section.getKey() }}" {% if section==current %}class="current"{% endif %}>{{ section.getTitle() }}</a></li>
+							<li><a href="/section/{{ section.getKey() }}" {% if section.getKey() == current %}class="current"{% endif %}>{{ section.getTitle() }}</a>
+								{% if section.getKey() == current %}
+									{% if career_names %}
+									<ul>
+										<li>Careers
+										<ul>
+										{% for career in career_names %}
+											<li><a href="#{{ career }}">{{ career }}</a></li>
+										{% endfor %}
+										</ul></li>
+										<li>Setups
+										<ul>
+										{% for setup in setup_titles %}
+											<li><a href="#{{ setup }}">{{ setup }}</a></li>
+										{% endfor %}
+										</ul></li>
+					                </ul>
+									{% endif %}
+								{% endif %}</li>
 						{% endfor %}
 	                </ul>  
 	                <br />
-					{% if career_names %}
-					<ul>
-						{% for career in career_names %}
-							<li><a href="#{{ career }}">{{ career }}</a></li>
-						{% endfor %}
-	                </ul>
-					{% endif %}
 				</div>
 
 			</div>
