@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Priest</name>
+<stats>Start with Tough +0, Sharp +0, Steady +2, then increase your choice by 1.</stats>
+<description>You represent the religion of your choice within the community. Your job is less theology and more pastoral: helping those in need, bringing together the community, and spreading the word. Lifestyle: middle class</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Rites</movename>
+<movebody>So long as you fulfill the regular offices of your religion (usually some sort of daily services, plus larger weekly events) your breaks are under control.</movebody></move>
+<move><movename>The Good Book</movename>
+<movebody>When you spend time in quiet meditation with your scriptures, the GM will give you some insight into the situation at hand that is comforting.</movebody></move>
+<move><movename>Reliquary</movename>
+<movebody>Your house of worship has something of supernatural power within it. The GM will tell you what it is, and at least some of what it does.</movebody></move>
+<move><movename>Minister</movename>
+<movebody>When another player comes to you for advice, tell them what they should do. If they follow your advice, they take +1 forward to do it.</movebody></move>
+<move><movename>Superstition</movename>
+<movebody>You have a love for the esoteric and apocryphal. When you encounter the supernatural the GM will tell you something about it that you would have learned from the fringes of your religion.</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>_____ is a member of my flock. So long as they attend regularly choose one of their breaks: it's under control. Other members of your congregation enjoy the same benefit.</event>
+<event>_____ helps me in my duties. They take +1 to aid you. Others who take an active role in the church gain the same benefit.</event>
+<event>When my faith falters I come to _____ for understanding and advice. When acting on their advice you take +1 forward.</event></history>
+</career>
+</careers>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<setups>
+<setup><title>The Mansion On The Hill</title>
+<description>I don’t think anybody ever really expected the old man to die. He was a fixture here, as much as you can be a fixture when you rarely leave your house. Odd was the kind word for him, though plenty of people had others. Now that he’s gone I guess the old place is being opened up, and I hear what’s in there is pretty strange. Must be valuable to someone too, since everybody seems to want to claim it as their own.</description>
+<options><option><question>What strange collection did the old man leave behind?</question>
+<ul><li>Books, many handwritten in various hands, some unorthodoxly bound.</li>
+<li>Specimens, in unlabled jars, lovingly displayed. Some of them don’t look like anything natural.</li>
+<li>Idols and totems, in a variety of tiny sanctuaries, many with fresh offerings.</li>
+<li>Keys, every one ornate, some impractical, but nary a lock in sight.</li></ul></option>
+<option><question>How did the old man die?</question>
+<ul><li>Of an apparent overdose</li>
+<li>Drained of all blood, but without a cut</li>
+<li>Cut up cleanly with one piece in each room, except for the eyeballs nobody found</li>
+<li>Nobody knows, since he’s only presumed dead</li></ul></option></options>
+<connections><instructions>Each player chooses one and fills in their character's name:</instructions>
+<connection>_______ has a claim to something valuable and strange in the old man's belongings, but the claim is disputed.</connection>
+<connection>_______ was the last one to see the old man alive and hear his last wishes.</connection>
+<connection>Since the old man's passing, _______ has gone into the mansion to recover something.</connection>
+<connection>_______ is a blood relation to the old man, though they don't always admit it.</connection>
+<connection>Before he died, the old man borrowed something from _______, it still hasn't been returned.</connection>
+<connection>_______ was taking care of the old man before he died, trying to give him some comfort.</connection>
+<connection>_______ has the final say on some piece of the old man's estate, though others are after it too.</connection>
+<connection>A local business is trying to buy up the mansion for some odd purpose, but _______ has been fighting them.</connection></connections>
+</setup>
+</setups>

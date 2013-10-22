@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Detective</name>
+<stats>Start with Tough +0, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<description>You investigate crimes. Maybe you have an assignment—homicide, larceny, or the like—but depending on the available cops you may get assigned anything. You find facts, make a case, and take it to the powers of justice. Lifestyle: middle class</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Gut Feeling</movename>
+<movebody>When you study someone closely, you can ask the GM (or player, for PCs) what crimes they’ve committed recently. They will answer truthfully, but offer no proof.</movebody></move>
+<move><movename>Connected</movename>
+<movebody>When you need to find something out, tell the GM what you want to know. They’ll give you a way to find out involving people (informants, prisoners, officials).</movebody></move>
+<move><movename>Brawler</movename>
+<movebody>When you take a risk in personal combat (fists, bats, knives, or the like) you treat a roll of 6- as a 7–9 instead.</movebody></move>
+<move><movename>Self-Medicating</movename>
+<movebody>When you drink yourself to sleep, choose one of your breaks: it’s under control, for now. Of course drinking and hangovers may mean taking risks for normal tasks.</movebody></move>
+<move><movename>Undercover</movename>
+<movebody>Name an organization you have in-depth knowledge of: the GM will tell you how you can gain access, and what act you’ll have to keep up to do so.</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>They liked _____ for a crime, but I found the real perp. They take +1 to aid you. Others whom you save from the long arm of the law enjoy the same benefit.</event>
+<event>_____ was a victim of a crime, I got to the bottom of it. Ask their player any one question, they must answer truthfully. Anyone you investigate gets the same treatment.</event>
+<event>_____ and I drink at the same bar, we drown our woes together and toast the good times. When you share a night of drinking with them you recover two moves. Others who become you drinking buddies enjoy the same benefit.</event></history>
+</career>
+</careers>

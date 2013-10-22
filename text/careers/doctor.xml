@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Doctor</name>
+<stats>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<description>You make a living fixing—or at least ameliorating—the physical ills of life. Name a specialty and describe your practice. Lifestyle: Well-off</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Forensics</movename>
+<movebody>When you study a dead body, ask the GM what killed it. If the death was mundane, the GM will describe the circumstances. If the death was supernatural, the GM will tell you the nearest mundane cause, plus what doesn’t fit that cause.</movebody></move>
+<move><movename>Medic</movename>
+<movebody>When you give a dying person your undivided attention you buy them time. They won’t die for at least a few moments and the GM will tell you what you can do to keep them alive longer—maybe even avoid death entirely.</movebody></move>
+<move><movename>Family Doctor</movename>
+<movebody>Off the top of your head you know the medical history of everyone in town.</movebody></move>
+<move><movename>First Aid</movename>
+<movebody>When you provide immediate medical aid to someone who’s suffered harm, they roll with your Sharp instead of their Tough.</movebody></move>
+<move><movename>Miracle Worker</movename>
+<movebody>When you treat someone with a permanent condition, ask the GM how the condition could be removed. They will always give you a way (though it may take some work).</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>I saved _______'s life, they know they're in good hands with me. They take +1 to Keep it Together in your presence. Others you save enjoy the same benefit.</event>
+<event>_______ has shown an interest in my work which I appreciate. They get +1 Sharp in your presence. Others who study under you enjoy the same benefit.</event>
+<event>I trust _______ to hear me out when the work is too much. They take +1 when aiding you. Others you open up to enjoy the same benefit.</event></history>
+</career>
+</careers>

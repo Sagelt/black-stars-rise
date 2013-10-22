@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Reporter</name>
+<stats>Start with Tough +0, Sharp +1, Steady -1, then increase your choice by 1.</stats>
+<description>You write stories, maybe with an investigative bent, for a periodical—name it, describe its topic(s), and choose a news beat (crime, politics, or high society maybe). Lifestyle: middle class</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Tell</movename>
+<movebody>When you talk to someone and can carefully study them you can ask the GM if they’re lying about any given statement, as often as you please. The GM will answer truthfully.</movebody></move>
+<move><movename>Muckraker</movename>
+<movebody>You’re known for bringing down people (deserving or not) with your stories. If you report on something with the barest of evidence you can be sure the proper authorities (local police, most likely) will get involved as soon as your story hits. This may not be a good thing, but at least they can’t kill you without somebody asking questions, right?</movebody></move>
+<move><movename>Camera Man</movename>
+<movebody>You’re used to taking your own photos. Unless you’re physically denied a working camera, you always have photographic evidence of every place you’ve been. Not that everyone will believe it.</movebody></move>
+<move><movename>Connected</movename>
+<movebody>You always know who’s in the know. When you seek information, you can always ask the GM “who might know more about this?” The GM will answer truthfully, including where that person can usually be found.</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>I filed a story on _____ and it made them look good—they owe me. They take +1 to aid you. Others you report on enjoy the same benefit.</event>
+<event>_____ helped me out with a particularly tough story, we worked well together. They take +1 to aid you. Others who help you investigate enjoy the same benefit.</event>
+<event>I always give _____ a copy of my notes, just in case someone comes after me. They take +1 to aid you. Others who keep your secrets enjoy the same benefits.</event></history>
+</career>
+</careers>

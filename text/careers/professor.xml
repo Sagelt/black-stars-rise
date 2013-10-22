@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Professor</name>
+<stats>Start with Tough -1, Sharp +2, Steady +0, then increase your choice by 1.</stats>
+<description>You teach and research, pursuing a clearer knowledge of some academic topic. Name the institution you work for and the field you work in. Lifestyle: middle class</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Research</movename>
+<movebody>You're on to something cutting edge and beyond the normal. When you want to do something seemingly impossible related to your field, the GM will tell you the cost or requirement. Do it and the laws of reality are yours to bend.</movebody></move>
+<move><movename>Knowledgeable</movename>
+<movebody>When you encounter something important (your call) that falls within your field, you may ask the GM any one question about it, they’ll answer honestly.</movebody></move>
+<move><movename>Mentor</movename>
+<movebody>When another player comes to you for advice, tell them what they should do. If they follow your advice, they take +1 forward to do it.</movebody></move>
+<move><movename>Renown</movename>
+<movebody>You are known as an expert in your field, and therefore experts in other fields as well. When you want to know more about an academic topic, tell the GM what you want to know, they’ll tell you who you know that could tell you, and how you might get a hold of them.</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>I taught _____ and found them a notable student. They gain +1 Sharp when in your presence. Others who study under you enjoy the same benefit.</event>
+<event>_____ has an active amateur interest in my field, which I encourage. They take +1 to aid you.</event>
+<event>I speak with _____ on matters beyond my field, a welcome distraction. When you unwind with them you recover two moves instead of one.</event></history>
+</career>
+</careers>

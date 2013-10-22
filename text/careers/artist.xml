@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Artist</name>
+<stats>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<description>You make visual art of some sort—paintings, drawings, or sculpture, maybe. Describe your style and the type of people who pay you for your work. Lifestyle: struggling</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Notable</movename>
+<movebody>Something in your art has gotten widespread attention. Increase your lifestyle to well-off (as the doctor).</movebody></move>
+<move><movename>Insight</movename>
+<movebody>When you create art directly related to something supernatural you personally experienced, the GM will tell you what the work requires of you. If you do it, the GM will reward you with some insight into the supernatural (most likely related to the event that inspired you, but not always).</movebody></move>
+<move><movename>Crazy Like a Fox</movename>
+<movebody>While you have at least one break that isn’t under control, you have Sharp +3 instead of your normal Sharp.</movebody></move>
+<move><movename>And I Feel Fine</movename>
+<movebody>When you have at least one break that isn’t under control, you get +1 Steady (to a maximum of +3).</movebody></move>
+<move><movename>Empathy</movename>
+<movebody>When you create art based on a supernatural event you experienced, anyone who views that art will immediately experience exactly what you felt in that moment (fear, despair, or otherwise).</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>_____ has been the subject of my art before. Ask their player any one question, they must answer truthfully. Anyone else who sits for your art gets the same treatment.</event>
+<event>I owe _____ for helping me through some hard times. Take +1 to aid them. Others who come to your aid enjoy the same benefit.</event>
+<event>_____ can pull me out of myself when I get too involved in my work. When you build a connection with them choose a break—it's now under control. Others who break through your shell enjoy the same benefit.</event></history>
+</career>
+</careers>

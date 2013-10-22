@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Mechanic</name>
+<stats>Start with Tough +1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<description>You take care of cars. If it’s broke, you can fix it. You have a few regular clients who come to you for maintenance, but most of your work is when something just isn’t working. Lifestyle: middle class</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Fix-It</movename>
+<movebody>When you encounter a mechanical device (or simple machine) that’s not working, you may ask the GM how it could be fixed. The GM will tell you the easiest way.</movebody></move>
+<move><movename>The Only Shop In Town</movename>
+<movebody>You’re the only car shop in town. Whenever you interact with somebody who might reasonably have used your services int the past, the GM will tell you some secret about them you learned while fixing their car.</movebody></move>
+<move><movename>Thugs</movename>
+<movebody>The folks you work with trust you implicitly. They’ll do anything up to minor crimes so long as you can show them how it would really help you out.</movebody></move>
+<move><movename>Improvised</movename>
+<movebody>You can build just about anything using the tools in your workshop. Tell the GM what machine you want to build. They’ll say “yes, you can build that, but…” and then one or more of these:
+<ul><li>It’ll be limited in some particular way</li>
+<li>You’ll need some extra tools or materials to do it</li>
+<li>It’ll fall apart pretty quick</li>
+<li>It’ll be dangerous to use</li></ul></movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>_____ helped me get started in this business, I owe them. Take +1 to aid them. Others who invest in your business get the same benefit.</event>
+<event>I fixed something for _____ when they really needed it. They take +1 to aid you. Others who you do a favor for enjoy the same benefit.</event>
+<event>_____ and I go way back. You always know when something is wrong with them no matter what separates you.</event></history>
+</career>
+</careers>

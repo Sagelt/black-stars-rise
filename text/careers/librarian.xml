@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+<career><name>Librarian</name>
+<stats>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<description>You take care of a large collection of books, either publicly owned or part of a university collection. You track and maintain the books, promote reading, and aid the interested in finding what they need. Lifestyle: middle class</description>
+<recovery><basicmovename>Recovery</basicmovename>
+<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+<moveinstructions>Choose two:</moveinstructions>
+<moves><move><movename>Everybody Reads</movename>
+<movebody>When you consult library records on a person you can always piece together some meaning from even the most random selection of books—the GM will tell you what goal that person is working towards (anything from "losing weight" to "raising the dead," depending on the person).</movebody></move>
+<move><movename>Special Collection</movename>
+<movebody>Your collection contains books on a particularly notable topic, some of which can be found nowhere else. Name the topic. You can be sure that anyone looking for information on that will come to your library. With enough time, you can find anything known (and written) on the topic.</movebody></move>
+<move><movename>Grimoir</movename>
+<movebody>Some of the books in your collection contain spells and you know which they are. (If your collection isn’t special, this means other libraries have similar spells, which sounds bad.) The GM will give you two or more spells as benefits of your job. With time spent in research you can probably find more.</movebody></move>
+<move><movename>Bookworm</movename>
+<movebody>When you have peace and solitude to read you recover Keep it Together or Study, your choice.</movebody></move></moves>
+<history><basicmovename>History</basicmovename>
+<event>_____ donated something unique to my collection. You get +1 to aid them. Others who give generously to the library enjoy the same benefit.</event>
+<event>I helped _____ find something they thought was lost. You gain a +2 bonus (instead of +1) when they aid you in Studying. Others who help you solve a mystery gain the same benefit.</event>
+<event>_____ and I share a taste in literature, we discuss our reads on a regular basis. When you recover with them you recover two moves instead of one. Others who talk books with you enjoy the same benefit.</event></history>
+</career>
+</careers>
