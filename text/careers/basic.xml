@@ -181,6 +181,12 @@
 <li>Nobody knows, since he’s only presumed dead</li></ul></option></options>
 <connections><instructions>Each player chooses one and fills in their character's name:</instructions>
 <connection>_______ has a claim to something valuable and strange in the old man's belongings, but the claim is disputed.</connection>
+<connection>_______ was the last one to see the old man alive and hear his last wishes.</connection>
+<connection>Since the old man's passing, _______ has gone into the mansion to recover something.</connection>
+<connection>_______ is a blood relation to the old man, though they don't always admit it.</connection>
+<connection>Before he died, the old man borrowed something from _______, it still hasn't been returned.</connection>
+<connection>_______ was taking care of the old man before he died, trying to give him some comfort.</connection>
+<connection>_______ has the final say on some piece of the old man's estate, though others are after it too.</connection>
 <connection>A local business is trying to buy up the mansion for some odd purpose, but _______ has been fighting them.</connection></connections></setup>
 </setups>
 </setting>
