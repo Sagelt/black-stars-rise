@@ -11,7 +11,7 @@ configuration.site.jinja_environment = jinja2.Environment(
 class PartHandler(webapp2.RequestHandler):
     def get(self, part_key=None):
       if not part_key:
-        part_key = configuration.site.default_part_key
+        part_key = configuration.site.parts.getDefaultPartKey()
       
       template_values = dict()
       part = configuration.site.parts.getPartByKey(part_key)

@@ -102,6 +102,9 @@ class Book(object):
     
   def getParts(self):
     return self.__parts__.values()
+    
+  def getDefaultPartKey(self):
+    return self.__parts__.keys()[0]
 
 
 class Move(object):
