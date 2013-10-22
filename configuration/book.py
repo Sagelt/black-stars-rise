@@ -4,7 +4,10 @@ import configuration.site
 import xml.etree.ElementTree as ET
 import jinja2
 
-class SingleFileSection(object):
+def content(tag):
+    return ''.join(ET.tostring(e) for e in tag)
+
+class Chapter(object):
   
   def __init__(self, key, title, file_name):
     self.__key__ = key
@@ -14,11 +17,37 @@ class SingleFileSection(object):
   def getTitle(self):
     return self.__title__
     
-  def getText(self):
-    return codecs.open(self.__file_name__, encoding='utf-8').read()
-    
   def getKey(self):
     return self.__key__
+    
+  def getHeaders(self):
+    return [section.getTitle() for section in self.getSections()]
+    
+  def getSections(self):
+    if not hasattr(self, '__sections__'):
+      self.__sections__ = []
+      for section in Section.fromFile(self.__file_name__):
+        self.__sections__.append(section)
+    return self.__sections__
+    
+class Section(object):
+  
+  @staticmethod
+  def fromFile(file_name):
+    tree = ET.parse(file_name)
+    for section_node in list(tree.getroot()):
+      yield Section(title=section_node.find('h1').text,
+                    text=content(section_node))
+                    
+  def __init__(self, title, text):
+    self.__title__ = title
+    self.__text__ = text
+    
+  def getTitle(self):
+    return self.__title__
+    
+  def getText(self):
+    return self.__text__
     
 class Setting(object):
   
@@ -60,19 +89,19 @@ class Setting(object):
 
 class Book(object):
   
-  def __init__(self, sections):
-    self.__sections__ = OrderedDict()
-    for section in sections:
-      self.__sections__[section.getKey()] = section
+  def __init__(self, parts):
+    self.__parts__ = OrderedDict()
+    for part in parts:
+      self.__parts__[part.getKey()] = part
       
-  def getSectionByKey(self, key):
-    return self.__sections__[key]
+  def getPartByKey(self, key):
+    return self.__parts__[key]
     
-  def getSectionKeys(self):
-    return self.__sections__.keys()
+  def getPartKeys(self):
+    return self.__parts__.keys()
     
-  def getSections(self):
-    return self.__sections__.values()
+  def getParts(self):
+    return self.__parts__.values()
 
 
 class Move(object):

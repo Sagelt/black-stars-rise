@@ -1,27 +1,34 @@
 {% macro careerblock(career) -%}
-<div class="career_left_column">
-<a name="{{ career.getName() }}"><h1>{{ career.getName() }}</h1></a>
-<p>{{ career.getStats() }}</p>
-<p>{{ career.getDescription() }}</p>
-<h3 class="basic_move_name">Recovery</h3>
-<p>{{ career.getRecovery() }}</p>
-</div>
-<div class="career_middle_column">
-	<h2>Moves</h2>
-	<p>{{ career.getMoveInstructions() }}</p>
-	{% for move in career.getMoves() %}
-		<div class="move" id="{{career.getName()}}.{{move.getName()}}">
-			<h3 class="move_name">{{move.getName()}}</h3>
-			<p>{{move.getBody()}}</p>
+<div class="panel panel-default">
+	<a name="{{ career.getName() }}"></a>
+	<div class="panel-heading">
+		<h1>{{ career.getName() }}</h1>
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-6">
+				<p>{{ career.getStats() }}</p>
+				<p>{{ career.getDescription() }}</p>
+				<h3 class="basic_move_name">Recovery</h3>
+				<p>{{ career.getRecovery() }}</p>
+				<h3>History</h3>
+				<ul>
+				{% for event in career.getHistory() %}
+				<li>{{ event }}</li>
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Moves</h3>
+				<p>{{ career.getMoveInstructions() }}</p>
+				{% for move in career.getMoves() %}
+					<div class="move" id="{{career.getName()}}.{{move.getName()}}">
+						<h3 class="move_name">{{move.getName()}}</h3>
+						<p>{{move.getBody()}}</p>
+					</div>
+				{% endfor %}
+			</div>
 		</div>
-	{% endfor %}
-</div>
-<div class="career_right_column">
-	<h2>History</h2>
-	<ul>
-	{% for event in career.getHistory() %}
-	<li>{{ event }}</li>
-	{% endfor %}
-	</ul>
+	</div>
 </div>
 {%- endmacro %}

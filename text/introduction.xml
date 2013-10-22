@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<chapter xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"><h1>What is this?</h1>
+<chapter xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/"><section><h1>What is this?</h1>
 <p aid:pstyle="noindent">It’s a game of normal people caught up in the strange dark truths of the universe. It’s based on Apocalypse World by way of World of Dungeons.</p>
 <p>This document is incomplete. It presumes that you’ve read Apocalypse World (and/or Dungeon World, Monsterhearts, Sagas of the Icelanders). This document only describes how this game differs from AW. If you're not familiar with those games, you can read Dungeon World for free at http://book.dwgazetteer.com/.</p>
 <p>A good way to describe what the characters do: you know how in The X-Files Mulder and Scully are always showing up to different places where strange things are happening? You’re going to play the people in one of those places, but Mulder and Scully are never going to show up and save the day. Good luck.</p>
-<p>You'll need one GM and 3-4 players.</p>
-<h1>Settings</h1>
+<p>You'll need one GM and 3-4 players.</p></section>
+<section><h1>Settings</h1>
 <p aid:pstyle="noindent">Each game of Black Stars Rise takes place in a setting, which is made up of <strong>careers</strong> the players can choose from and <strong>setups</strong> that the GM can use to launch a game. The choice of setting and setup is up to the GM. This preview contains one setting: Small Town.</p>
 <h2>Careers</h2>
 <p aid:pstyle="noindent">A career describes what a player character does. Like many people, a player character's abilities are largely defined by what they do. A career provides values for the three basic stats (Sharp, Steady, Tough), moves, lifestyle, recovery, and advancement.</p>
 <p>Each player chooses a career from the available careers at the start of play. Every career not chosen becomes an NPC (and potential replacement PC).</p>
 <h2>Setups</h2>
-<p aid:pstyle="noindent">A setup serves to launch a game into motion. It provides a general idea of the situation the PCs find themselves in. Each setup has some choices for the GM to make, as well as some decisions for the players to make.</p>
-<h1>Getting Started</h1>
+<p aid:pstyle="noindent">A setup serves to launch a game into motion. It provides a general idea of the situation the PCs find themselves in. Each setup has some choices for the GM to make, as well as some decisions for the players to make.</p></section>
+<section><h1>Getting Started</h1>
 <p aid:pstyle="noindent">Getting ready to play Black Stars Rise requires a little time before the session, plus a half-hour to hour at the start of play.</p>
 <h2>0. Before The Session</h2>
 <p aid:pstyle="noindent">Before sitting down to play, the GM should read over this document. The players can read it too, if they like—there are no secrets here—but they don't need to. The GM will also need to print materials: the setting (one sided), the basic moves (two sided), and the breaks (one sided).</p>
@@ -30,19 +30,19 @@
 <h2>6. Introductions</h2>
 <p aid:pstyle="noindent">Go around the table having each player introduce their character. The GM should ask follow-on questions about anything pertinent—where they live, family, etc.</p>
 <h2>7. History</h2>
-<p aid:pstyle="noindent">The characters are bound together by history. Each character has history statements. Each statement gives a particular bonus based on the history those characters share.</p>
-<h1>The Basic Moves</h1>
+<p aid:pstyle="noindent">The characters are bound together by history. Each character has history statements. Each statement gives a particular bonus based on the history those characters share.</p></section>
+<section><h1>The Basic Moves</h1>
 <p>The most basic move is Take a Risk, which is a lot like Defy Danger or Act Under Fire. It’ll cover most everything the players do. Helping someone else is a specific case of taking a risk, and usually grants the person being helped a +1 on a 7+ (with complications on a 7–9).</p>
 <p>Keep it Together and Suffer Harm are reactive moves. They happen when something happens to the characters—facing something horrifying or taking damage, respectively. Failing at these moves can have profound effects for the characters.</p>
-<p>Study happens when a character carefully studies a person, thing, or situation. Think of Study as their character’s logic and knowledge: you are the players’ eyes and ears no matter what, the Study move is their characters’ knowledge, deduction, and intuition.</p>
-<h1>Lifestyle &amp; Buying</h1>
+<p>Study happens when a character carefully studies a person, thing, or situation. Think of Study as their character’s logic and knowledge: you are the players’ eyes and ears no matter what, the Study move is their characters’ knowledge, deduction, and intuition.</p></section>
+<section><h1>Lifestyle &amp; Buying</h1>
 <p aid:pstyle="noindent">Each career lists a lifestyle which describes the money and resources the character has so long as they are employed. These careers are all middle class or well-off, but you can assume there’s rich above that, and struggling below, plus more.</p>
 <p>If a character is ever cut off (due to being fired, disowned, absent, or otherwise) the GM will mark down their lifestyle to a lower category. If this endures for a while the GM may remove their lifestyle entirely—at this point they're essentially broke and credit-less.</p>
 <p>When a player wants to buy something above their lifestyle the GM will tell them one or more of the following:</p>
 <ul><li>The best you can manage is a cheaper version</li>
 <li>Buying it will temporarily lower your lifestyle for weeks/months/a year.</li>
-<li>You’ll have to secure a loan first, maybe from ________.</li></ul>
-<h1>Damage</h1>
+<li>You’ll have to secure a loan first, maybe from ________.</li></ul></section>
+<section><h1>Damage</h1>
 <p aid:pstyle="noindent">The players will probably end up fighting something, or themselves, sooner or later.</p>
 <p>Weapons and their damage potential are measured in dice. Light weapons are smaller or multi-purpose: a pistol, a baseball bat, a crowbar, a knife. Light weapons deal one dice of damage.</p>
 <p>Heavy weapons are larger, tougher to conceal, and sometimes illegal. They’re clearly weapons: a rifle, a sword, a pitchfork. Heavy weapons deal two dice of damage.</p>
@@ -65,12 +65,12 @@
 <p>Wounds are always applied to moves. When a move is wounded, flip it over to its wounded side, it can’t be wounded again.</p>
 <p>Medical aid, or the passage of time, may enable a move to return to its unwounded side. Otherwise it stays wounded indefinitely.</p>
 <p>Note that usually only the basic moves can take wounds, and that generally the wounded version is worse for the player than the unwounded.</p>
-<p>Example: The cultist carries through onto Sam on momentum alone, driving a dagger into him. The GM says this is 0 damage, so Sam makes the Suffer Harm move with no modifier. Unfortunately he still rolls a 5. The GM describes the dagger digging into him, and the blood that starts to leak out, telling Berkowitz to wound his Suffer Harm card. He flips over his Suffer Harm card and finds the other side not to his liking.</p>
-<h1>Breaks</h1>
+<p>Example: The cultist carries through onto Sam on momentum alone, driving a dagger into him. The GM says this is 0 damage, so Sam makes the Suffer Harm move with no modifier. Unfortunately he still rolls a 5. The GM describes the dagger digging into him, and the blood that starts to leak out, telling Berkowitz to wound his Suffer Harm card. He flips over his Suffer Harm card and finds the other side not to his liking.</p></section>
+<section><h1>Breaks</h1>
 <p aid:pstyle="noindent">Possibly more dangerous than physical harm are breaks. A break is a mental mishap—think "break with reality" or "breakdown." Breaks are printed by the GM. When a move or the GM tells a player they gain a break, they draw one from the top of the break deck.</p>
 <p>The card will describe what happens. Some may be instantaneous: some missing time, maybe. Others will stick around, like compulsion or disorder.</p>
-<p>Breaks that stick around may be cured with time and treatment, as prescribed by the GM. Good luck with that. Humans are complex piles of irrational and poorly understood mental mechanisms.</p>
-<h1>GMing</h1>
+<p>Breaks that stick around may be cured with time and treatment, as prescribed by the GM. Good luck with that. Humans are complex piles of irrational and poorly understood mental mechanisms.</p></section>
+<section><h1>GMing</h1>
 <p aid:pstyle="noindent">For the most part, GM as you normally would AW or DW. That’s hand waving a huge amount that’s actually changed, but this is a playtest document. A few important twists:</p>
 <h2>Ask Questions and Use The Answers</h2>
 <p aid:pstyle="noindent">Still do this, of course, but think carefully about what you ask the players about. Freely ask them about their characters’ normal mundane lives, and use that everywhere. Let them have typical human possessions and relationships, let them fill them in.</p>
@@ -92,4 +92,4 @@
 <p>A session is one night of play. It’ll usually involve the same characters for the entire time, but if someone dies that character’s player can make a new character and start playing them immediately.</p>
 <p>The first session and setup establish some odd goings-on. The process of dealing with those (by trying to unentangle the characters from them, getting to the bottom of them, or otherwise) makes up an arc. There’s no set arc length, just look for when the setup has been clearly dealt with, at least for these characters.</p>
 <p>The end of an arc is a fine place to stop, but you can also keep a campaign going. To build a campaign, start a new arc with a new first session. Use a new setup, new characters, a new location, and maybe even a new time. The player characters will likely know nothing of the previous arcs, but we as the players and GM will get to see how this incident relates to other earlier arcs we’ve played. For example, after dealing with the old man’s death (and the captured spirits he was tending) we might jump to 130 years earlier when the mansion is being built under mysterious circumstances.</p>
-<p>As a GM, whenever you start a new session or arc assume it's taking place in the same world as every previous game you've run. Slowly, over time, you'll develop the big picture—and the players who play with you regularly may start to see it too.</p></chapter>
+<p>As a GM, whenever you start a new session or arc assume it's taking place in the same world as every previous game you've run. Slowly, over time, you'll develop the big picture—and the players who play with you regularly may start to see it too.</p></section></chapter>

@@ -3,64 +3,63 @@
 
 <html>
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=Neuton:400,700,400italic|Averia+Libre:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
-		
 		<title>Black Stars Rise</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='http://fonts.googleapis.com/css?family=Neuton:400,700,400italic|Averia+Libre:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href="../css/navbar.css" rel="stylesheet" media="screen">	
+		<!-- Bootstrap -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">	
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
 	</head>
 	
-	<body>
-		<div id="header">
-			<h1>Black Stars Rise</h1>
+	<body data-spy="scroll" data-target=".sidebar">
+		<div class="row">
+			<div class="col-md-11 col-md-offset-1"><h1>Black Stars Rise</h1></div>
 		</div>
-		<div class="colmask leftmenu">
-			<div class="colleft">
-				<div class="col1">
-					<div class="text">
-						{% if text %}
-							{{ text }}
-						{% endif %}
-						{% if careers %}
-							{% for career in careers %}
-								{{ careermacros.careerblock(career) }}
-							{% endfor %}
-						{% endif %}
-						{% if setups %}
-							{% for setup in setups %}
-								{{ setupmacros.setupblock(setup) }}
-							{% endfor %}
-						{% endif %}
-					</div>
+		
+		<div class="row">
+			<div class="col-md-2 col-md-offset-1">
+				<div class="bs-sidebar affix" >
+				<ul class="nav bs-sidenav">
+					{% for part in parts %}
+						<li {% if part.getKey() == current %}class="active"{% endif %}><a href="/part/{{ part.getKey() }}">{{ part.getTitle() }}</a>
+							{% if part.getKey() == current %}
+								<ul class="nav">
+									{% for section in sections %}
+										<li><a href="#{{ section.getTitle() }}">{{ section.getTitle() }}</a></li>
+									{% endfor %}
+									{% for career in career_names %}
+										<li><a href="#{{ career }}">{{ career }}</a></li>
+									{% endfor %}
+									{% for setup in setup_titles %}
+										<li><a href="#{{ setup }}">{{ setup }}</a></li>
+									{% endfor %}
+								</ul>
+							{% endif %}
+						</li>
+					{% endfor %}
+                </ul>
 				</div>
-				
-				
-				<div class="col2">
-	                <ul>
-						{% for section in sections %}
-							<li><a href="/section/{{ section.getKey() }}" {% if section.getKey() == current %}class="current"{% endif %}>{{ section.getTitle() }}</a>
-								{% if section.getKey() == current %}
-									{% if career_names %}
-									<ul>
-										<li>Careers
-										<ul>
-										{% for career in career_names %}
-											<li><a href="#{{ career }}">{{ career }}</a></li>
-										{% endfor %}
-										</ul></li>
-										<li>Setups
-										<ul>
-										{% for setup in setup_titles %}
-											<li><a href="#{{ setup }}">{{ setup }}</a></li>
-										{% endfor %}
-										</ul></li>
-					                </ul>
-									{% endif %}
-								{% endif %}</li>
-						{% endfor %}
-	                </ul>  
-	                <br />
-				</div>
-
+			</div>
+			
+			<div class="col-md-8">
+				{% if sections %}
+					{% for section in sections %}
+						<div><a name="{{ section.getTitle() }}"></a>{{ section.getText() }}</div>
+					{% endfor %}
+				{% endif %}
+				{% if careers %}
+					{% for career in careers %}
+						{{ careermacros.careerblock(career) }}
+					{% endfor %}
+				{% endif %}
+				{% if setups %}
+					{% for setup in setups %}
+						{{ setupmacros.setupblock(setup) }}
+					{% endfor %}
+				{% endif %}
+			
 			</div>
 		</div>
 	</body>

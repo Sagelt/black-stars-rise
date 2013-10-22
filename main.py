@@ -8,33 +8,33 @@ configuration.site.jinja_environment = jinja2.Environment(
   loader=jinja2.FileSystemLoader(os.path.join(os.path.dirname(__file__), 
                                  "templates")))
 
-class SectionHandler(webapp2.RequestHandler):
-    def get(self, section_key=None):
-      if not section_key:
-        section_key = configuration.site.default_section_key
+class PartHandler(webapp2.RequestHandler):
+    def get(self, part_key=None):
+      if not part_key:
+        part_key = configuration.site.default_part_key
       
       template_values = dict()
-      section = configuration.site.sections.getSectionByKey(section_key)
-      if hasattr(section, 'getText'):
-        template_values['text'] = section.getText()
-      elif hasattr(section, 'getCareers'):
-        template_values['career_names'] = section.getCareerNames()
-        template_values['careers'] = section.getCareers()
-        template_values['setup_titles'] = section.getSetupTitles()
-        template_values['setups'] = section.getSetups()
-      template_values['sections'] = configuration.site.sections.getSections()
-      template_values['current'] = section_key
+      part = configuration.site.parts.getPartByKey(part_key)
+      if hasattr(part, 'getSections'):
+        template_values['sections'] = part.getSections()
+      elif hasattr(part, 'getCareers'):
+        template_values['career_names'] = part.getCareerNames()
+        template_values['careers'] = part.getCareers()
+        template_values['setup_titles'] = part.getSetupTitles()
+        template_values['setups'] = part.getSetups()
+      template_values['parts'] = configuration.site.parts.getParts()
+      template_values['current'] = part_key
       
       template = configuration.site.jinja_environment.get_template('chapter.html')
       self.response.write(template.render(template_values))
 
 app = webapp2.WSGIApplication([
     webapp2.Route(
-      r'/section/<section_key:[\d\w%]+>', 
-      handler=SectionHandler, 
-      name='section'),
+      r'/part/<part_key:[\d\w%]+>', 
+      handler=PartHandler, 
+      name='part'),
     webapp2.Route(
       r'/', 
-      handler=SectionHandler, 
+      handler=PartHandler, 
       name='home'),
 ], debug=True)
