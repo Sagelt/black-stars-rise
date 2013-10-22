@@ -1,8 +1,6 @@
 from book import Book, Chapter, Setting
 
-jinja_environment = None
-
-parts = Book([
+black_stars_rise = Book([
   Chapter(key='introduction', title='Introduction', file_name='text/introduction.xml'),
   Setting(key='smalltown', title='Small Town', file_names=[
                                     'text/careers/doctor.xml',
