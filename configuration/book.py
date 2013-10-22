@@ -1,6 +1,5 @@
 from collections import OrderedDict
 import codecs
-import configuration.site
 import xml.etree.ElementTree as ET
 import jinja2
 
