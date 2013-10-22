@@ -14,4 +14,3 @@ black_stars_rise = Book([
                                     'text/setups/the-mansion-on-the-hill.xml',
   ])
 ])
-  

@@ -1,7 +1,6 @@
 from collections import OrderedDict
 import codecs
 import xml.etree.ElementTree as ET
-import jinja2
 
 def content(tag):
     return ''.join(ET.tostring(e) for e in tag)
@@ -130,10 +129,11 @@ class Career(object):
                    recovery=career_node.find('recovery').find('movebody').text,
                    move_instructions=career_node.find('moveinstructions').text,
                    moves=[Move(move.find('movename').text, move.find('movebody').text) for move in career_node.find('moves').findall('move')],
-                   history=[event.text for event in career_node.find('history').findall('event')]
+                   history=[event.text for event in career_node.find('history').findall('event')],
+                   full_text=content(career_node)
                   )
                   
-  def __init__(self, name, stats, description, recovery, move_instructions, moves, history):
+  def __init__(self, name, stats, description, recovery, move_instructions, moves, history, full_text):
     self.__name__ = name
     self.__stats__ = stats
     self.__description__ = description
@@ -141,6 +141,7 @@ class Career(object):
     self.__move_instructions__ = move_instructions
     self.__moves__ = moves
     self.__history__ = history
+    self.__full_text__ = full_text
     
   def getName(self):
     return self.__name__
@@ -162,6 +163,9 @@ class Career(object):
     
   def getHistory(self):
     return self.__history__
+    
+  def getFullText(self):
+    return self.__full_text__
 
 class Option(object):
   
@@ -184,13 +188,15 @@ class Setup(object):
       yield Setup(title=setup_node.find('title').text,
                   description=setup_node.find('description').text,
                   options=[Option(option.find('question').text, [answer.text for answer in option.iter('li')]) for option in setup_node.find('options').findall('option')],
-                  connections=[connection.text for connection in setup_node.find('connections').findall('connection')])
+                  connections=[connection.text for connection in setup_node.find('connections').findall('connection')],
+                  full_text=content(setup_node))
   
-  def __init__(self, title, description, options, connections):
+  def __init__(self, title, description, options, connections, full_text):
     self.__title__ = title
     self.__description__ = description
     self.__options__ = options
     self.__connections__ = connections
+    self.__full_text__ = full_text
     
   def getTitle(self):
     return self.__title__
@@ -203,3 +209,6 @@ class Setup(object):
     
   def getConnections(self):
     return self.__connections__
+    
+  def getFullText(self):
+    return self.__full_text__
