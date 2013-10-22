@@ -49,9 +49,9 @@
 				{% if sections %}
 					<div class="row">
 						<div class="col-md-8">
-					{% for section in sections %}
-						<div class="section"><a name="{{ section.getTitle() }}"></a>{{ section.getText() }}</div>
-					{% endfor %}
+							{% for section in sections %}
+								<div class="section"><a name="{{ section.getTitle() }}"></a>{{ section.getText() }}</div>
+							{% endfor %}
 						</div>
 					</div>
 				{% endif %}
