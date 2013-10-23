@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<setups>
+<setup><title>Renovation</title>
+<description>It was a good deal. Not too good to be true—nothing is—but a nice apartment at a nice price as the building came out of a long renovation. It sold out fast, all dozen apartments. The complaints were small at first—standard apartment stuff—but now people are talking. Maybe there’s something more going on here.</description>
+<options><option><question>Which complaints have been reported?</question>
+<ul><li>Small items tend to decay and crumble as if they’d been left here for years</li>
+<li>The clear yowl of sirens, but no source</li>
+<li>Loud clunky footsteps from above, but no one’s there</li>
+<li>Pets panicking around the middle of the second floor hallway</li>
+<li>Small leaks of a curious pale green liquid</li>
+<li>Urgent knocks, like someone desperate to get in, from below the first floor.</li>
+<li>Phone calls with snippets of unintelligible chanting</li>
+<li>Unknown creatures glimpsed in stairways</li></ul></option>
+<option><question>What has the landlord done about it?</question>
+<ul><li>Given several discounts and refunds on rent</li>
+<li>Stubbornly denied that anything was wrong</li>
+<li>Hired several workers to come in, none of whom have found anything wrong</li>
+G<li>one silent, nobody can reach him</li></ul></option></options>
+<connections><instructions>Each player chooses one and fills in their character's name:</instructions>
+<connection>_______ was the first to experience anything odd, now many have had the same.</connection>
+<connection>A building watch set by _______ failed to spot anything, they eventually gave up.</connection>
+<connection>_______ has lived in the building since before the renovation, nothing could make them leave.</connection>
+<connection>_______ tried to get the police involved, they claimed it was just a hallucination.</connection>
+<connection>_______ has started a lawsuit against the landlord, but it's slow going.</connection>
+<connection>_______ moved in after the strangeness started, they claimed it wouldn't bother them.</connection>
+<connection>_______ has a special arrangement with the landlord.</connection>
+<connection>The landlord tried to evict _______, but they fought to stay here.</connection></connections>
+</setup>
+</setups>

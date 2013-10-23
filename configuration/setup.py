@@ -21,5 +21,6 @@ black_stars_rise = Book([
                                     'text/careers/priest.xml',
                                     'text/careers/artist.xml',
                                     'text/setups/the-mansion-on-the-hill.xml',
+                                    'text/setups/renovation.xml',
   ]),
 ])
