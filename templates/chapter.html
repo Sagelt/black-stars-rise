@@ -41,6 +41,12 @@
 									{% for move in moves %}
 										<li><a href="#{{ move.getName() }}">{{ move.getName() }}</a></li>
 									{% endfor %}
+									{% for pair in breaks %}
+										<li><a href="#{{ pair[0].getName() }}">{{ pair[0].getName() }}</a></li>
+										{% if pair[1] %}
+											<li><a href="#{{ pair[1].getName() }}">{{ pair[1].getName() }}</a></li>
+										{% endif %}
+									{% endfor %}
 								</ul>
 							{% endif %}
 						</li>
@@ -72,6 +78,36 @@
 				{% if moves %}
 					{% for move in moves %}
 					 {{ basicmovemacros.basicmoveblock(move) }}
+					{% endfor %}
+				{% endif %}
+				{% if breaks %}
+					{% for pair in breaks %}
+						<div class="row">
+							<div class="col-md-6">
+								 <div class="panel panel-default">
+									<a name="{{ pair[0].getName() }}"></a>
+									<div class="panel-heading">
+										<h3>{{ pair[0].getName() }}</h3>
+									</div>
+									<div class="panel-body">
+										<p>{{ pair[0].getDescription() }}</p>
+									</div>
+								</div>
+							</div>
+							{% if pair[1] %}
+								<div class="col-md-6">
+									 <div class="panel panel-default">
+										<a name="{{ pair[1].getName() }}"></a>
+										<div class="panel-heading">
+											<h3>{{ pair[1].getName() }}</h3>
+										</div>
+										<div class="panel-body">
+											<p>{{ pair[1].getDescription() }}</p>
+										</div>
+									</div>
+								</div>
+							{% endif %}
+						</div>
 					{% endfor %}
 				{% endif %}
 			

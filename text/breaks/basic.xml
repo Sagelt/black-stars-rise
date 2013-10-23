@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<breaks>
+<break>
+<name>Edward</name>
+<description>You have a new friend named Edward. He’s pretty typical, except nobody else can see him. Sometimes he’ll stop by your house to hang out for a while, or visit you at work and see how you’re doing. He’s got some interesting hobbies he’s trying to get you involved in too. Treating Edward as anything but a real friend is taking a risk.</description>
+</break>
+<break>
+<name>Dr. Doolittle</name>
+<description>It’s amazing, now that the animals talk. It’s like always being in a crowded room. They don’t always make sense, of course—they’re animals, still. They talk of the meal they just ate, the local predators and prey, the scents and sights. The GM will tell you what the animals say. It may be annoying, distracting, or just plain loud, depending on the circumstances. Of course the animals can’t understand you. That would be crazy.</description>
+</break>
+<break>
+<name>Babel</name>
+<description>Sometimes your words don’t come out right. You think you know what you’re saying and then drydock sync fetch by education buddy knick. When you speak, the GM may speak for you instead. Generally it’ll just be gibberish, though sometimes it’ll reveal something about you or the situation at hand. Good luck telling which is which.</description>
+</break>
+<break>
+<name>Howling Fantods</name>
+<description>The GM will name something physical related to the situation where you gained this insanity. From now on, the mere presence of that thing evokes a bowl-loosening fear in you. Doing anything but running from it is taking a risk.</description>
+</break>
+<break>
+<name>Rabbit's Foot</name>
+<description>Choose an object associated with how you got this insanity. It becomes important to you. Very important. Can’t-live-without-it important. When you’re without it, doing anything but trying to recover it is probably taking a risk.</description>
+</break>
+<break>
+<name>The Other You</name>
+<description>It was lonely in your mind before there were two of you. Take another career sheet. Copy over your stats as-is from your current sheet. Choose a starting move. You have the requirements of the job (or at least think you do) but get none of the benefits, unless you somehow actually find employment. The GM may tell you to switch between careers at any time. Physical conditions carry over between them, but moves and insanities do not. What knowledge the two yous have of each other is up to you.</description>
+</break>
+<break>
+<name>What Dreams May Come</name>
+<description>Where your dreams where once mere imaginings brought on by sleep, now they’re clear visions into what has been, what is, and what may be. That makes them totally, utterly horrifying. When you fall asleep the GM will describe your dreams. Feel free to ask questions for more detail, these are after all your dreams. Your dreams deny you rest, which may lead to penalties or having to take a risk for everyday actions. Abusing drugs and alcohol has its own price.</description>
+</break>
+<break>
+<name>Beethoven's 5th</name>
+<description>No matter where you go, it’s always playing. Sometimes the performer or arrangement might shift, but it’s hard to tell. After the hundredth repetition it all blurs together. The GM may deny you information or cause you problems based on what you can’t hear over the music.</description>
+</break>
+<break>
+<name>The Old Charmer</name>
+<description>Your face is no longer yours. You can control the important stuff: where you look, breathing, eating, speaking. But the expression you give—the look of joy or pain or whatever else—is entirely up to the GM.</description>
+</break>
+<break>
+<name>Dog Beneath The Skin</name>
+<description>Your sense of smell has improved immeasurably. The world is a symphony of smells calling out to be experienced. The GM may at any time give you only a description of the scents around you and require time, effort, or even a risk to take advantage of your other senses.</description>
+</break>
+<break>
+<name>Missing Time</name>
+<description>It’s like it never happened. The last few minutes (as determined by the GM) are erased from your memory. It’s as if it never happened. If confronted with facts about the blocked-out event, you have to keep it together.</description>
+</break>
+<break>
+<name>Painless</name>
+<description>You feel no pain. This can be a blessing, when you need to carry on in the face of injury, but it also means you get no warning before your hand touches a grill. The GM, or another player of your choosing, will roll the suffer harm move for you. If it results in one of your moves taking a wound, they get to choose which one, and they won’t tell you until the next time you roll it.</description>
+</break>
+<break>
+<name>Tongues</name>
+<description>You speak every language around, now, but have no control of what you speak. The GM may at any point tell you that what you’re saying is, in fact, in Aramaic or Awadhi or Afrikaans or whatever other language they please. It usually won’t last more than a few moments.</description>
+</break>
+<break>
+<name>Prophecy</name>
+<description>Your dreams tell you the future, or at least appear to. Whenever you sleep the GM may tell you what the future holds. If they do, this is the bedrock truth for you. To act as if your dreams are wrong without compelling proof would be crazy. After all, you’ve seen the future.</description>
+</break>
+<break>
+<name>Second That Emotion</name>
+<description>Your emotions come from others as well. Whenever someone nearby has an outburst of emotion—joy, fear, love—you feel the same thing and must express it as best you can.</description>
+</break>
+</breaks>

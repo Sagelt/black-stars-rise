@@ -1,4 +1,4 @@
-from book import Book, Chapter, Setting, BasicMoveList
+from book import Book, Chapter, Setting, BasicMoveList, BreakList
 
 black_stars_rise = Book([
   Chapter(key='introduction', title='Introduction', file_name='text/introduction.xml'),
@@ -7,6 +7,9 @@ black_stars_rise = Book([
                                     'text/basic_moves/suffer-harm.xml',
                                     'text/basic_moves/keep-it-together.xml',
                                     'text/basic_moves/study.xml',
+  ]),
+  BreakList(key='breaks', title='Breaks', file_names=[
+                                    'text/breaks/basic.xml',
   ]),
   Setting(key='smalltown', title='Small Town', file_names=[
                                     'text/careers/doctor.xml',

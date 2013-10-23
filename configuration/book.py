@@ -262,4 +262,50 @@ class BasicMove(object):
     
   def getWoundedVersionsPairs(self):
     for i in xrange(0, len(self.__woundedversions__), 2):
-            yield self.__woundedversions__[i:i+2]
+      yield self.__woundedversions__[i:i+2]
+            
+class BreakList(object):
+  def __init__(self, key, title, file_names):
+    self.__key__ = key
+    self.__title__ = title
+    self.__file_names__ = file_names
+
+  def getTitle(self):
+    return self.__title__
+
+  def getKey(self):
+    return self.__key__
+
+  def getBreaks(self):
+    if not hasattr(self, '__breaks__'):
+      self.__breaks__ = []
+      for filename in self.__file_names__:
+        for move in Break.fromFile(filename):
+          self.__breaks__.append(move)
+    return self.__breaks__
+    
+  def getBreaksInPairs(self):
+    if not hasattr(self, '__break_pairs__'):
+      self.__break_pairs__ = []
+      for i in xrange(0, len(self.getBreaks()), 2):
+        self.__break_pairs__.append(self.__breaks__[i:i+2])
+    return self.__break_pairs__
+  
+class Break(object):
+  
+  @staticmethod
+  def fromFile(file_name):
+    tree = ET.parse(file_name)
+    for break_node in tree.getroot().iter('break'):
+      yield Break(name=break_node.find('name').text,
+                  description=break_node.find('description').text)
+                  
+  def __init__(self, name, description):
+    self.__name__ = name
+    self.__description__ = description
+    
+  def getName(self):
+    return self.__name__
+    
+  def getDescription(self):
+    return self.__description__

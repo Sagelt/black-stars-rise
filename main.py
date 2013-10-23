@@ -25,7 +25,8 @@ class PartHandler(webapp2.RequestHandler):
         template_values['setups'] = part.getSetups()
       if hasattr(part, 'getMoves'):
         template_values['moves'] = part.getMoves()
-      
+      if hasattr(part, 'getBreaks'):
+        template_values['breaks'] = part.getBreaksInPairs()
       template_values['parts'] = black_stars_rise.getParts()
       template_values['current'] = part_key
       
