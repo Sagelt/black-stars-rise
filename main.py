@@ -17,11 +17,15 @@ class PartHandler(webapp2.RequestHandler):
       part = black_stars_rise.getPartByKey(part_key)
       if hasattr(part, 'getSections'):
         template_values['sections'] = part.getSections()
-      elif hasattr(part, 'getCareers'):
+      if hasattr(part, 'getCareers'):
         template_values['career_names'] = part.getCareerNames()
         template_values['careers'] = part.getCareers()
+      if hasattr(part, 'getSetups'):
         template_values['setup_titles'] = part.getSetupTitles()
         template_values['setups'] = part.getSetups()
+      if hasattr(part, 'getMoves'):
+        template_values['moves'] = part.getMoves()
+      
       template_values['parts'] = black_stars_rise.getParts()
       template_values['current'] = part_key
       

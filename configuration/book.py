@@ -3,6 +3,9 @@ import codecs
 import xml.etree.ElementTree as ET
 
 def content(tag):
+  if tag.text:
+    return tag.text + ''.join(ET.tostring(e) for e in tag)
+  else:
     return ''.join(ET.tostring(e) for e in tag)
 
 class Chapter(object):
@@ -212,3 +215,51 @@ class Setup(object):
     
   def getFullText(self):
     return self.__full_text__
+    
+class BasicMoveList(object):
+  def __init__(self, key, title, file_names):
+    self.__key__ = key
+    self.__title__ = title
+    self.__file_names__ = file_names
+
+  def getTitle(self):
+    return self.__title__
+
+  def getKey(self):
+    return self.__key__
+
+  def getMoves(self):
+    if not hasattr(self, '__moves__'):
+      self.__moves__ = []
+      for filename in self.__file_names__:
+        for move in BasicMove.fromFile(filename):
+          self.__moves__.append(move)
+    return self.__moves__
+
+class BasicMove(object):
+  
+  @staticmethod
+  def fromFile(file_name):
+    tree = ET.parse(file_name)
+    for move_node in tree.getroot().iter('basicmove'):
+      yield BasicMove(name=move_node.find('name').text,
+                      normalversion=content(move_node.find('normalversion')),
+                      woundedversions=[content(wounded) for wounded in move_node.iter('woundedversion')])
+                      
+  def __init__(self, name, normalversion, woundedversions):
+    self.__name__ = name
+    self.__normalversion__ = normalversion
+    self.__woundedversions__ = woundedversions
+    
+  def getName(self):
+    return self.__name__
+    
+  def getNormal(self):
+    return self.__normalversion__
+    
+  def getWoundedVersions(self):
+    return self.__woundedversions__
+    
+  def getWoundedVersionsPairs(self):
+    for i in xrange(0, len(self.__woundedversions__), 2):
+            yield self.__woundedversions__[i:i+2]

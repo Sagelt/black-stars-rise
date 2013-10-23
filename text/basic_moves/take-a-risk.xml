@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<moves>
+<basicmove>
+<name>Take a Risk</name>
+<normalversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough, if it requires physical power or resilience</li>
+<li>Sharp, if it requires quick thinking</li>
+<li>Steady, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</normalversion>
+<woundedversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough-1, if it requires physical power or resilience</li>
+<li>Sharp, if it requires quick thinking</li>
+<li>Steady, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</woundedversion>
+<woundedversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough, if it requires physical power or resilience</li>
+<li>Sharp-1, if it requires quick thinking</li>
+<li>Steady, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</woundedversion>
+<woundedversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough, if it requires physical power or resilience</li>
+<li>Sharp, if it requires quick thinking</li>
+<li>Steady-1, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</woundedversion>
+<woundedversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough-1, if it requires physical power or resilience</li>
+<li>Sharp-1, if it requires quick thinking</li>
+<li>Steady, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</woundedversion>
+<woundedversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough-1, if it requires physical power or resilience</li>
+<li>Sharp, if it requires quick thinking</li>
+<li>Steady-1, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</woundedversion>
+<woundedversion>When you attempt something risky, roll. The GM may tell you to add:
+<ul><li>Tough, if it requires physical power or resilience</li>
+<li>Sharp-1, if it requires quick thinking</li>
+<li>Steady-1, if it requires mental fortitude and nerves</li></ul>
+On a 10+, it goes as well as could be hoped. On a 7–9 there’s a complication, the GM will give you a tough choice. On a 6-, the risk turns out badly, the GM will describe how.</woundedversion>
+</basicmove>
+</moves>

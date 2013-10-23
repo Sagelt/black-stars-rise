@@ -1,5 +1,6 @@
 {% import 'macros/career.html' as careermacros %}
 {% import 'macros/setup.html' as setupmacros %}
+{% import 'macros/basicmove.html' as basicmovemacros %}
 
 <html>
 	<head>
@@ -37,6 +38,9 @@
 									{% for setup in setup_titles %}
 										<li><a href="#{{ setup }}">{{ setup }}</a></li>
 									{% endfor %}
+									{% for move in moves %}
+										<li><a href="#{{ move.getName() }}">{{ move.getName() }}</a></li>
+									{% endfor %}
 								</ul>
 							{% endif %}
 						</li>
@@ -63,6 +67,11 @@
 				{% if setups %}
 					{% for setup in setups %}
 						{{ setupmacros.setupblock(setup) }}
+					{% endfor %}
+				{% endif %}
+				{% if moves %}
+					{% for move in moves %}
+					 {{ basicmovemacros.basicmoveblock(move) }}
 					{% endfor %}
 				{% endif %}
 			

@@ -1,0 +1,40 @@
+{% macro basicmoveblock(move) -%}
+<div class="panel panel-default">
+	<a name="{{ move.getName() }}"></a>
+	<div class="panel-heading">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h1>{{ move.getName() }}</h1>
+						<p>{{ move.getNormal() }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="panel-body">
+		<h3>Wounded Versions</h3>
+		{% for pair in move.getWoundedVersionsPairs() %}
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<p>{{ pair[0] }}</p>
+					</div>
+				</div>
+			</div>
+			{% if pair[1] %}
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<p>{{ pair[1] }}</p>
+						</div>
+					</div>
+				</div>
+			{% endif %}
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{%- endmacro %}
