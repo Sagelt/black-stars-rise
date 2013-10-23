@@ -61,4 +61,17 @@ if __name__ == '__main__':
             f.write(woundedVersions[i % len(woundedVersions)])
             f.write('</movebody>\n')
         f.write('</moves>')
+    elif hasattr(part, 'getBreaks'): # It's breaks
+      with codecs.open(os.path.join('build', part.getKey()+'.xml'), 'w', "utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n')
+        f.write('<breaks>')
+        for b in part.getBreaks():
+          woundedVersions = move.getWoundedVersions()
+          f.write('<breakname>')
+          f.write(b.getName())
+          f.write('</breakname>\n')
+          f.write('<breakbody>')
+          f.write(b.getDescription())
+          f.write('</breakbody>\n')
+        f.write('</breaks>')
       
