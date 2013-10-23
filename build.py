@@ -39,3 +39,26 @@ if __name__ == '__main__':
           f.write(setup.getFullText())
           f.write('</setup>\n')
         f.write('</setups></setting>')
+    elif hasattr(part, 'getMoves'): # It's basic moves
+      with codecs.open(os.path.join('build', part.getKey()+'.xml'), 'w', "utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n')
+        f.write('<moves>')
+        for move in part.getMoves():
+          woundedVersions = move.getWoundedVersions()
+          # For now, assume a 9-per-page layout
+          for i in xrange(0,9):
+            f.write('<basicmovename>')
+            f.write(move.getName())
+            f.write('</basicmovename>\n')
+            f.write('<movebody>')
+            f.write(move.getNormal())
+            f.write('</movebody>\n')
+          for i in xrange(0,9):
+            f.write('<basicmovename>')
+            f.write(move.getName())
+            f.write('</basicmovename>\n')
+            f.write('<movebody>')
+            f.write(woundedVersions[i % len(woundedVersions)])
+            f.write('</movebody>\n')
+        f.write('</moves>')
+      
