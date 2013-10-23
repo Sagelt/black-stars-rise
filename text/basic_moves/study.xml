@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<moves>
+<basicmove>
+<name>Study</name>
+<normalversion>When you carefully observe a person, thing, or situation, roll+sharp. On a 10+ you may ask the GM any one question about the subject. On a 7–9 you may ask the GM one question from the list below. On a 6- the GM  will add a complication.
+<ul><li>What here should I be worried about?</li>
+<li>What here might be useful to me?</li>
+<li>What's about to happen?</li></ul></normalversion>
+<woundedversion>When you carefully observe a person, thing, or situation, roll+sharp. On a 10+ you may ask the GM any one question about the subject. On a 7–9 you may ask the GM one question from the list below. On a 6- the GM  will give you a horrible insight and wound this move and your Keep It Together move.
+<ul><li>What here should I be worried about?</li>
+<li>What here might be useful to me?</li>
+<li>What's about to happen?</li></ul></woundedversion>
+<woundedversion>When you carefully observe a person, thing, or situation, roll+sharp. On a 10+ you may ask the GM any two questions about the subject—they'll answer one truthfully and lie about the other. On a 7–9 the GM will choose one from the list below to answer. On a 6- the GM  will add a complication.
+<ul><li>What here should I be worried about?</li>
+<li>What here might be useful to me?</li>
+<li>What's about to happen?</li></ul></woundedversion>
+<woundedversion>When you carefully observe a person, thing, or situation, roll+sharp. On a 10+ the GM will choose one from the list below to answer. On a 7–9 choose one question randomly from the list below for the GM to answer. On a 6- the GM  will add a complication.
+<ul><li>What here should I be worried about?</li>
+<li>What here might be useful to me?</li>
+<li>What's about to happen?</li></ul></woundedversion>
+</basicmove>
+</moves>

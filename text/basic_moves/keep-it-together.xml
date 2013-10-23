@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<moves>
+<basicmove>
+<name>Keep It Together</name>
+<normalversion>When you are confronted by the horrendous, supernatural, or mind-shattering, roll+steady. On a 10+ you’re in control. You can do as you please. On a 7–9 you choose which you do from the list below. On a 6- the GM chooses and you wound this move.
+<ul><li>Scream and panic</li>
+<li>Lash out violently</li>
+<li>Beg and plead</li>
+<li>Curl up and shut down</li></ul></normalversion>
+<woundedversion>When you are confronted by the horrendous, supernatural, or mind-shattering, roll+steady. On a 10+ you choose which you do. On a 7–9 the GM chooses. On a 6- you suffer a break, the GM will give it to you.
+<ul><li>Hurt someone or something else chosen at random</li>
+<li>Hurt yourself</li></ul></woundedversion>
+<woundedversion>When you are confronted by the horrendous, supernatural, or mind-shattering, roll+steady. On a 10+ take -1 forward to this move. On a 7–9 decrease your Sharp by 1 until you get out of here (wherever here is). On a 6- you suffer a break, the GM will give it to you.</woundedversion>
+<woundedversion>When you are confronted by the horrendous, supernatural, or mind-shattering, choose someone nearby (or yourself, if nobody’s around) and roll+steady. On a 10+ you choose one from the list below. On a 7–9 choose one randomly. On a 6- you suffer a break, the GM will give it to you.
+<ul><li>You must be near them, now</li>
+<li>You must get away from them, now</li>
+<li>It’s as if they disappeared</li>
+<li>They’ve been replaced by someone else, the GM will say whom</li>
+<li>You have a present for them, say what and give it to them</li></ul></woundedversion>
+</basicmove>
+</moves>

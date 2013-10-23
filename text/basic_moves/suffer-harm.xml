@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<moves>
+<basicmove>
+<name>Suffer Harm</name>
+<normalversion>When you suffer harm the GM will describe it and tell you a number of damage. Roll 2d6+tough-damage. On a 10+ you tough it out. On a 7–9, it’s not too bad, yet. Take -1 ongoing to this move until you receive medical attention or spend a few days recuperating. On a 6–4 your injuries catch up to you. The GM will wound one of your moves. On a 3-, it’s life-threatening. The GM will wound two of your moves. If you don’t have two unwounded moves, you’re dying.</normalversion>
+<woundedversion>When you suffer harm the GM will describe it and tell you a number of damage. Roll 2d6+tough-damage. On a 10+ you take -1 forward to this move. On a 7–9, the GM will name a part of your body (an arm, leg, or eye maybe)—it’s grievously wounded and unusable until you receive appropriate medical care. On a 6- you are dying. The GM will tell you when you’re dead.</woundedversion>
+<woundedversion>When you suffer harm the GM will describe it and tell you a number of damage. Roll 2d6+tough-damage. On a 10+ you take -1 ongoing to this move. On a 7–9, you lose track or something important or are otherwise disoriented, the GM will say how or what. On a 6- you are dying. The GM will tell you when you’re dead.</woundedversion>
+<woundedversion>When you suffer harm the GM will describe it and tell you a number of damage. Roll 2d6+tough-damage. On a 10+ you can either take a wound to another card or take -1 ongoing to this move, your choice. On a 7–9, you can either take a wound to another card or permanently reduce one of your stats by one, your choice. On a 6- you are dying. The GM will tell you when you’re dead.</woundedversion>
+</basicmove>
+</moves>
