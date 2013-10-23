@@ -26,7 +26,7 @@
 				<div class="bs-sidebar affix" >
 				<ul class="nav bs-sidenav">
 					{% for part in parts %}
-						<li {% if part.getKey() == current %}class="active"{% endif %}><a href="/part/{{ part.getKey() }}">{{ part.getTitle() }}</a>
+						<li {% if part.getKey() == current %}class="active"{% endif %}><a href="/part/{{ part.getKey() }}">{% if part.getCareers %}<span class="label label-default">Setting</span>{% endif %} {{ part.getTitle() }}</a> 
 							{% if part.getKey() == current %}
 								<ul class="nav">
 									{% for section in sections %}

@@ -21,6 +21,11 @@
   border-radius: 5px;
 }
 
+.bs-sidenav .label {
+  font-weight: normal;
+  text-shadow: none;
+}
+
 /* All levels of nav */
 .bs-sidebar .nav > li > a {
   display: block;
