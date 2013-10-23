@@ -19,7 +19,7 @@
 				</ul>
 			</div>
 			<div class="col-md-6">
-				<h3>Moves</h3>
+				<h2>Moves</h2>
 				<p>{{ career.getMoveInstructions() }}</p>
 				{% for move in career.getMoves() %}
 					<div class="move" id="{{career.getName()}}.{{move.getName()}}">
