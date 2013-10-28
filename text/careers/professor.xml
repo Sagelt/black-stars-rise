@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <careers>
 <career><name>Professor</name>
-<stats>Start with Tough -1, Sharp +2, Steady +0, then increase your choice by 1.</stats>
+<stats>Start with Fit -1, Sharp +2, Steady +0, then increase your choice by 1.</stats>
 <description>You teach and research, pursuing a clearer knowledge of some academic topic. Name the institution you work for and the field you work in. Lifestyle: middle class</description>
 <recovery><basicmovename>Recovery</basicmovename>
 <movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>

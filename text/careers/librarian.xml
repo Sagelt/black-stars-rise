@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <careers>
 <career><name>Librarian</name>
-<stats>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<stats>Start with Fit -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
 <description>You take care of a large collection of books, either publicly owned or part of a university collection. You track and maintain the books, promote reading, and aid the interested in finding what they need. Lifestyle: middle class</description>
 <recovery><basicmovename>Recovery</basicmovename>
 <movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>

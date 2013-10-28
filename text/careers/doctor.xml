@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <careers>
 <career><name>Doctor</name>
-<stats>Start with Tough -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<stats>Start with Fit -1, Sharp +1, Steady +0, then increase your choice by 1.</stats>
 <description>You make a living fixing—or at least ameliorating—the physical ills of life. Name a specialty and describe your practice. Lifestyle: Well-off</description>
 <recovery><basicmovename>Recovery</basicmovename>
 <movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
@@ -13,7 +13,7 @@
 <move><movename>Family Doctor</movename>
 <movebody>Off the top of your head you know the medical history of everyone in town.</movebody></move>
 <move><movename>First Aid</movename>
-<movebody>When you provide immediate medical aid to someone who’s suffered harm, they roll with your Sharp instead of their Tough.</movebody></move>
+<movebody>When you provide immediate medical aid to someone who’s suffered harm, they roll with your Sharp instead of their Fit.</movebody></move>
 <move><movename>Miracle Worker</movename>
 <movebody>When you treat someone with a permanent condition, ask the GM how the condition could be removed. They will always give you a way (though it may take some work).</movebody></move></moves>
 <history><basicmovename>History</basicmovename>

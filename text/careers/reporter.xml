@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <careers>
 <career><name>Reporter</name>
-<stats>Start with Tough +0, Sharp +1, Steady -1, then increase your choice by 1.</stats>
+<stats>Start with Fit +0, Sharp +1, Steady -1, then increase your choice by 1.</stats>
 <description>You write stories, maybe with an investigative bent, for a periodical—name it, describe its topic(s), and choose a news beat (crime, politics, or high society maybe). Lifestyle: middle class</description>
 <recovery><basicmovename>Recovery</basicmovename>
 <movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>

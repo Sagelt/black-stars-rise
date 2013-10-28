@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <careers>
 <career><name>Detective</name>
-<stats>Start with Tough +0, Sharp +1, Steady +0, then increase your choice by 1.</stats>
+<stats>Start with Fit +0, Sharp +1, Steady +0, then increase your choice by 1.</stats>
 <description>You investigate crimes. Maybe you have an assignment—homicide, larceny, or the like—but depending on the available cops you may get assigned anything. You find facts, make a case, and take it to the powers of justice. Lifestyle: middle class</description>
 <recovery><basicmovename>Recovery</basicmovename>
 <movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
