@@ -11,7 +11,7 @@ black_stars_rise = Book([
   BreakList(key='breaks', title='Breaks', file_names=[
                                     'text/breaks/basic.xml',
   ]),
-  Setting(key='hinnom', title='Hinnom, TX', file_names=[
+  Setting(key='hinnom', title='Hinnom Valley', file_names=[
                                     'text/careers/doctor.xml',
                                     'text/careers/reporter.xml',
                                     'text/careers/librarian.xml',
