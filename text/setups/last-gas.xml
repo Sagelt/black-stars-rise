@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<setups>
+<setup><title>Last Gas</title>
+<attribution>By Stefan Grambart</attribution>
+<description>The overnight express bus was almost empty, allowing most of the eight passengers to stay clear of one another, but after the bus pulled off the lonely highway at the Last Gas, things changed. It had been almost forty minutes since the driver walked into the station; people were getting anxious… or nervous. Then the whole building’s lights went out.</description>
+<options><option><question>What strangeness is going on outside?</question>
+<ul><li>There’s an unnatural fog rolling in, further obscuring the station and surrounding area.</li>
+<li>There’s no sound; crickets, owls, wind… all silent.</li>
+<li>Shadows can be seen moving within the darkness of the station’s diner section.</li>
+<li>The convenience store’s automated sliding doors just opened, and won’t shut.</li>
+<li>A herd of spooked deer just ran past.</li>
+<li>There’s a car that stopped just up the road, its headlights still on.</li>
+<li>The distinct smell of sea water permeates the area—though they’re supposedly miles from the coast.</li></ul></option></options>
+<connections><instructions>Each player chooses one and fills in their character's name:</instructions>
+<connection>________ has taken this route dozens of times.</connection>
+<connection>________ is feeling a little claustrophobic.</connection>
+<connection>________ is trying to get home to their family.</connection>
+<connection>________ had to take the bus after an unfortunate car accident.</connection>
+<connection>________ is leaving a bad situation back home.</connection>
+<connection>________ had bought a seat for a loved one, but they never showed.</connection>
+<connection>________ had an argument with the driver just before getting on the bus.</connection>
+<connection>________ can’t find their backpack.</connection></connections>
+</setup>
+</setups>

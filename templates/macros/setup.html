@@ -2,7 +2,12 @@
 <div class="panel panel-default">
 	<a name="{{ setup.getTitle() }}"></a>
 	<div class="panel-heading">
-		<h1>{{ setup.getTitle() }}</h1>
+		<h1>{{ setup.getTitle() }} 
+			{% if setup.getAttribution() %}
+				<div class="pull-right"><h4>{{setup.getAttribution()}}</h4></div>
+			{% endif %}
+			</h1>
+		
 	</div>
 	<div class="panel-body">
 		<div class="row">

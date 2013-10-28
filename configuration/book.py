@@ -192,14 +192,16 @@ class Setup(object):
                   description=setup_node.find('description').text,
                   options=[Option(option.find('question').text, [answer.text for answer in option.iter('li')]) for option in setup_node.find('options').findall('option')],
                   connections=[connection.text for connection in setup_node.find('connections').findall('connection')],
-                  full_text=content(setup_node))
+                  full_text=content(setup_node),
+                  attribution=((setup_node.find('attribution').text) if (setup_node.find('attribution') is not None) else None))
   
-  def __init__(self, title, description, options, connections, full_text):
+  def __init__(self, title, description, options, connections, full_text, attribution):
     self.__title__ = title
     self.__description__ = description
     self.__options__ = options
     self.__connections__ = connections
     self.__full_text__ = full_text
+    self.__attribution__ = attribution
     
   def getTitle(self):
     return self.__title__
@@ -215,6 +217,9 @@ class Setup(object):
     
   def getFullText(self):
     return self.__full_text__
+    
+  def getAttribution(self):
+    return self.__attribution__
     
 class BasicMoveList(object):
   def __init__(self, key, title, file_names):
