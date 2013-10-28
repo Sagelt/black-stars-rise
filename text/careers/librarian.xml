@@ -10,7 +10,7 @@
 <movebody>When you consult library records on a person you can always piece together some meaning from even the most random selection of books—the GM will tell you what goal that person is working towards (anything from "losing weight" to "raising the dead," depending on the person).</movebody></move>
 <move><movename>Special Collection</movename>
 <movebody>Your collection contains books on a particularly notable topic, some of which can be found nowhere else. Name the topic. You can be sure that anyone looking for information on that will come to your library. With enough time, you can find anything known (and written) on the topic.</movebody></move>
-<move><movename>Grimoir</movename>
+<move><movename>Grimoire</movename>
 <movebody>Some of the books in your collection contain spells and you know which they are. (If your collection isn’t special, this means other libraries have similar spells, which sounds bad.) The GM will give you two or more spells as benefits of your job. With time spent in research you can probably find more.</movebody></move>
 <move><movename>Bookworm</movename>
 <movebody>When you have peace and solitude to read you recover Keep it Together or Study, your choice.</movebody></move></moves>
