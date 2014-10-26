@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+	<career><name>Farmer</name></career>
+  <stats>Start with Tough 0, Sharp -1, Steady +1, then increase your choice by 1.</stats>
+  <description>You own and work a modest farm. It's enough to keep you and your family, but it's not huge. Lifestyle: working class.</description>
+	<recovery><basicmovename>Recovery</basicmovename>
+	<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+	<moves>
+		<move>
+			<movename>I've Seen Worse</movename>
+			<movebody>You have seen a lot of bad things happen, without rhyme or reason. That's just how things are. You get +1 to Hold It Together unless the source of stress is supernatural.</movebody>
+		</move>
+	</moves>
+	<history>
+		<basicmovename>Connections</basicmovename>
+		<movebody>Choose two or more:
+			<event>Your spouse _________ who would like to move to somewhere more exciting.</event>
+			<event>Your neighbour _________. There's a long-running dispute between you, about the boundary survey.</event>
+			<event>Your parents, _________, who have moved in to your farm (either a wing of your house or a cottage next door) for their retirement.</event>
+			<event>Your clubmates at the ___________ club in town.</event>
+			<event>Your kid _________ who can't wait to take over the farm.</event>
+			<event>Your supplier for ___________ in town. You've been chatting whenever you need to pick up more for years and years now.</event>
+		</movebody>
+	</history>
+</careers>

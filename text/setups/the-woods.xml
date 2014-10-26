@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<setups>
+	<setup>
+    <title>Black Stars Rise—The Woods</title>
+		<attribution>By Michael Sands</attribution>
+		<description>The woods have always had a spooky reputation – stories amongst the kids, probably due to those murders back in ’95. Still, it’s a park and you use it for normal park stuff – walking to work, exercise, taking the dog out. This morning, though, something strange is happening.</description>
+		<options>
+			<option>
+				<question>Where in the world are these woods? What's the town like?</question>
+				<question>What's Happening? (Answer some or all of these)</question>
+				<ul>
+					<li>Strange sounds can be heard in the woods. What are they like?</li>
+					<li>It's misty here this morning. What can be seen in the mist – a structure? A creature?</li>
+					<li>Animals are behaving unusually. What are they doing?</li>
+					<li>Something has been moved. What was it? Where did it go?</li>
+					<li>Strange carvings have appeared on trees. Draw some of them. What could have made them?</li>
+					<li>Something was crouched on top of a rocky outcrop, deep in the woods. What was it like?</li>
+					<li>Someone strange was watching the woods from outside the park boundary. What one thing makes them stand out?</li>
+					<li>Who in the park knows something about what's going on?</li>
+					<li>How are these things related to the murders in 1995?</li>
+					<li>What element of truth is hidden in the kids' stories about the woods?</li>
+				</ul>
+		</option>
+		<option>
+			<question>Why Are They Involved? Ask these in any order you want, until each character has answered one.</question>
+				<ul>
+					<li>Who knows that there's something in the woods today, something that's calling them somehow?</li>
+					<li>Who was meeting someone here, but there's no sign of them?</li>
+					<li>Who brought one of the others here to check out [something weird]? (Tell the players one of the weird things you've decided on that they might be checking out).</li>
+					<li>Who needed to take a walk and chill out after an argument at home?</li>
+					<li>Who is visiting a place that was associated with the murders in 1995? What's your connection to them?</li>
+					<li>Who dreamed about [something weird] in the woods? (Tell the players one of the weird things you've decided on that they dreamed about).</li>
+				</ul>
+			</option>
+		</options>
+	</setup>
+</setups>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<careers>
+	<career><name>Park Ranger</name></career>
+	<stats>Start with Tough +1, Sharp 0, Steady -1, then increase your choice by 1.</stats>
+	<description>You look after the park. The woods are used by lots of people from the city, and the wildlife and environment always need looking after. Lifestyle: working class.</description>
+	<recovery><basicmovename>Recovery</basicmovename>
+	<movebody>When you receive appropriate medical treatment (GM's call), recover Suffer Harm. When you build a basic human relationship with someone (their player's call), recover one of Take a Risk, Keep it Together, or Study, your choice.</movebody></recovery>
+	<moves>
+		<move>
+			<movename>Sense of Direction</movename>
+			<movebody>You don't get lost easily. As long as you're able to pay attention while travelling, you can retrace your path back to a known position.</movebody>
+		</move>
+	</moves>
+	<history>
+		<basicmovename>Connections</basicmovename>
+		<movebody>Choose two or more:
+			<event>Your spouse _________ who is much more ambitious and career-oriented than you are.</event>
+			<event>Your colleague _________, who always pretends to know a bit more about everything.</event>
+			<event>Your mother, _________, who wants you to get a “better” job.</event>
+			<event>Your new girlfriend/boyfriend __________—you're on the cusp of getting really serious.</event>
+			<event>Your kids _________ and __________ who love to visit you at the park.</event>
+			<event>Your buddy __________ from school. You've been friends forever, through the good and bad.</event>
+		</movebody>
+	</history>
+</careers>
